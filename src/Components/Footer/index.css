@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.TotalFooterContainer {
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  background-color: #00BFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  flex-wrap: wrap;
+  min-height: 200px;
+  height: 100%;
+  color: white !important;
+}
+
+.footerContactList {
+  padding-left: 0px;
+  color: #ffffff;
+  list-style-type: none;
+  line-height: 4px;
+  font-size: 13px;
+}
+
+.footerContactListClumzi {
+  padding-left: 0px;
+  color: #ffffff;
+  list-style-type: none;
+}
+
+.footerContactListItem {
+  width: 100%;
+  display: flex;
+  font-size: 15px;
+}
+
+.footerContainer {
+  width: 100%;
+}
+
+.footerUsefullLinks {
+  color: #ffffff;
+}
+
+.footerServices {
+  color: #ffffff;
+}
+
+.footerContact {
+  color: #ffffff;
+}
+
+.footerContent {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.footerHeader {
+  font-size: 30px;
+}
+
+.footerHorizontalLine {
+  border: 0.25px solid #ffffff;
+}
+
+.ListItem1:hover {
+  margin-left: 20px;
+}
+
+.ListItem2:hover {
+  margin-left: 20px;
+}
+
+.ListItem3:hover {
+  margin-left: 20px;
+}
+
+.ListItem4:hover {
+  margin-left: 20px;
+}
+
+.ListItem5:hover {
+  margin-left: 20px;
+}
+
+.ListItem6:hover {
+  margin-left: 20px;
+}
+
+.footerIcon {
+  align-self: stretch;
+}
+
+.ListItem7:hover {
+  margin-left: 20px;
+}
+
+.ListItem8:hover {
+  margin-left: 20px;
+}
+
+.ListItem9:hover {
+  margin-left: 20px;
+}
+.ListItem10:hover {
+  margin-left: 20px;
+}
+
+.footerIconSocial {
+  border-radius: 100%;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #6c757d;
+  color: aqua;
+}
+
+.footerIconSocial:hover {
+  border-radius: 100%;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #0557a8;
+  color: white;
+}
+
+.footerIcon {
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+.footerIconsContainer {
+  display: flex;
+}
+
+.footer-list-container {
+  height: auto;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footerHeader {
+    font-size: 20px;
+  }
+}

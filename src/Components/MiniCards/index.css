@@ -1,0 +1,72 @@
+.mtsg-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 30px;
+  width: 80%;
+}
+.mtsg-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 2px;
+}
+
+.gem-image {
+  width: 150px;
+  height: 100px;
+}
+
+.start-up-image {
+  width: 150px;
+  height: 130px;
+}
+
+@media screen and (max-width: 767px) {
+  .mtsg-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+  }
+
+  .gem-image {
+    width: 70px;
+    height: 50px;
+  }
+
+  .start-up-image {
+    width: 70px;
+    height: 60px;
+  }
+  .mtsg-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0px;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+  .mtsg-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 2px;
+  }
+
+  .gem-image {
+    width: 100px;
+    height: 80px;
+  }
+
+  .start-up-image {
+    width: 100px;
+    height: 120px;
+  }
+  .mtsg-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0px;
+    width: 90%;
+  }
+}

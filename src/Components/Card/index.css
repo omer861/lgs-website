@@ -1,0 +1,125 @@
+/* Updated styles for six cards in a row and reduced space between rows */
+our-clients-image-container {
+  margin-bottom: 10px; /* Adjust this value to control the space between rows */
+  text-align: center;
+}
+.card-holding-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next row */
+  justify-content: space-between; /* Distribute cards evenly with space-between */
+  margin: -15px; /* Negative margin to counteract the margin on the cards */
+}
+
+.our-clients-card-image {
+  height: 150px;
+  width: calc(
+    16.66% - 30px
+  ); /* Each card takes about 16.66% width with margin adjustment */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px; /* Add margin between cards */
+  box-sizing: border-box; /* Include padding in element dimensions */
+}
+
+/* Adjustments for larger screens */
+
+.our-clients-card-image {
+  height: 150px;
+  width: 150px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.technologies-card-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.card-holding-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.our-clients-heading {
+  font-weight: bold !important;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.our-clients-main-container {
+  height: max-content;
+  display: block;
+}
+
+.our-clients-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.clinets-image-size{
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .our-clients-heading {
+    font-weight: bold !important;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+}
+/* Media query for screens smaller than 576px (phones) */
+@media (max-width: 575.98px) {
+  .our-clients-card-image img {
+    height: 90px;
+    width: 90px;
+    margin: 20px;
+  }
+  .our-clients-heading {
+    font-weight: bold !important;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}
+
+/* Media query for screens between 576px and 767.98px (small tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .our-clients-card-image img {
+    height: 110px;
+    width: 110px;
+    margin: 20px;
+  }
+  .our-clients-heading {
+    font-weight: bold !important;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}
+
+/* Media query for screens between 768px and 991.98px (medium tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .our-clients-card-image img {
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+  }
+}
+
+/* Media query for screens between 992px and 1199.98px (large tablets) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .our-clients-card-image img {
+    height: 140px;
+    width: 140px;
+    margin: 20px;
+  }
+}

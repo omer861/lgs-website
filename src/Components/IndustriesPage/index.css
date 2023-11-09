@@ -1,0 +1,93 @@
+.industries-heading {
+  font-family: "Poppins";
+  color: #ffffff !important;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.h-line {
+  border-bottom: 3px solid #529ff1;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.industriesImage {
+  height: 29px;
+  width: 29px;
+  color:#fff;
+  
+}
+.industriesImage-1 {
+  height: 29px;
+  width: 29px;
+  background-color: #fff;
+}
+
+.ToolsPageContainer {
+  width: 95%;
+  height: max-content;
+}
+
+.totalToolsPageContainer {
+  background-image: url("https://www.techasoft.com/debug/img/industries-back.jpg");
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  height: max-content;
+  align-items: center;
+  padding: 20px;
+}
+
+.industries-para {
+  font-weight: bold;
+  margin: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.image-evolution img {
+  opacity: 0; /* The images are initially hidden */
+  transition: opacity 0.5s ease; /* Use a transition for the evolving effect */
+}
+
+.image-evolution.evolved img {
+  opacity: 1; /* When the images are evolved, they become visible */
+}
+
+@media screen and (max-width: 767px) {
+  .industries-para {
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 3px;
+    text-transform: uppercase;
+  }
+  .industriesImage {
+    height: 20px;
+    width: 20px;
+  }
+  .industries-heading {
+    font-family: "Poppins";
+    color: #ffffff !important;
+    font-size: 20px;
+    font-weight: bold !important;
+  }
+  .h-line {
+    border-bottom: 3px solid #529ff1;
+    width: 140px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}
