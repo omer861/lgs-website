@@ -1,0 +1,135 @@
+.careers-heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.career-hero-container {
+  background-repeat: repeat-x;
+  display: flex;
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background-size: cover;
+}
+
+.careers-heading {
+  font-size: 30px !important;
+  font-weight: bold !important;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.career-info {
+  background-color: #fff;
+  -webkit-box-shadow: 0 9.5px 25px 5.5px #ececeb;
+  box-shadow: 0 9.5px 25px 5.5px #ececeb;
+  margin-bottom: 7%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.careers-image {
+  height: 400px;
+  width: 600px;
+  margin: 20px;
+  margin-left: 80px;
+}
+
+.careers-image-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.carrer-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+.career-form-main-container {
+  width: 100%;
+  height: fit-content;
+  display: block;
+ 
+}
+.career-form {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.add_career_pop_up_button {
+  background: rgb(7, 119, 247) !important;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.add_career_pop_up_button:hover {
+  background: rgba(7, 25, 47, 0.8) !important;
+  color: lightgray;
+  cursor: pointer;
+}
+
+.career-form-submit-btn {
+  cursor: pointer;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(to right, #196ae5, red 100%) border-box;
+  transition: all 0.5s ease;
+  border: 2.5px solid transparent;
+  color: #000;
+  background-color: transparent;
+}
+
+.career-form-submit-btn:hover {
+  background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+  border: 3px solid transparent;
+  color: #fff;
+  transition: all 0.1s ease;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.career-input-fields {
+  border: 2px solid rgb(233, 231, 231);
+  border-image: linear-gradient(
+      to right,
+      rgb(0 118 227 / 80%),
+      rgb(255 30 84 / 80%)
+    )
+    1;
+  border-image-slice: 1;
+}
+
+.file-css{
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .careers-image {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1170px) {
+  .careers-image {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    margin-right: 0px;
+  }
+}

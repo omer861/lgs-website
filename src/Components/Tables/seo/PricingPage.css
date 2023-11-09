@@ -1,0 +1,140 @@
+/* Styling for the pricing page */
+.pricing-page {
+  margin: 10px 100px 10px 100px;
+}
+
+table {
+  border: 1px solid #333;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  padding: 0px;
+  overflow: auto;
+  border-radius: 10px !important;
+}
+
+.seo-column {
+  height: 80px;
+  background-color: #487dc2;
+  color: #ffffff;
+}
+.seo-column-2 {
+  height: 80px;
+  background-color: #48c24a;
+  color: #fff;
+}
+.seo-column-3 {
+  height: 80px;
+  background-color: #e8d46d;
+  color: #fff;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Apply alternating background color to rows */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.seo-button {
+  text-align: center;
+}
+.heading-seo {
+  font-size: 30px;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.learn-more-button-seo {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: white;
+  background-color: #0263c4;
+  border-radius: 5px;
+  border-width: 0px;
+  outline: none;
+  width: 120px;
+  height: 40px;
+  padding: 5px;
+}
+
+.highlighted {
+  background-color: rgb(183, 183, 172);
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    margin-bottom: -5px;
+    border-radius: 5px;
+  }
+
+  th,
+  td {
+    display: inline-block;
+    box-sizing: border-box;
+    border-top: 1px solid #ddd;
+    padding: 8px; /* Adjust padding as needed */
+    font-size: 10px; /* Adjust font size as needed */
+    width: calc(35% - 2px); /* Adjust width and consider border width */
+  }
+
+  th {
+    background-color: #ddd;
+    font-weight: bold;
+  }
+  td {
+    width: 33.3%; /* Adjust width for the data columns */
+  }
+  .learn-more-button {
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: rgb(34, 34, 53);
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    width: 100%;
+  }
+  .seo-column {
+    height: 40px;
+    background-color: #487dc2;
+    color: #ffffff;
+    font-size: 10px;
+  }
+  .seo-column-2 {
+    height: 40px;
+    background-color: #48c24a;
+    color: #fff;
+    font-size: 10px;
+  }
+  .seo-column-3 {
+    font-size: 10px;
+    height: 40px;
+    background-color: #e8d46d;
+    color: #fff;
+  }
+  .pricing-page {
+    margin: 10px 25px 10px 25px;
+  }
+  .heading-seo {
+    font-size: 20px;
+    font-family: "Poppins";
+    text-align: center;
+  }
+}

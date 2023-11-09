@@ -1,0 +1,368 @@
+/* .ptc-mainContainer {
+    background-image: linear-gradient(to left, #2980b9, #6dd5fa);
+    background-size: cover;
+    padding: 20px;
+  }
+
+.ptc-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: safe;
+}
+
+.ptc-alm-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    background-color: aqua;
+    background-size: cover;
+}
+
+.list-items{
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.check-icons{
+    color: green;
+    padding: 5px;
+    margin: 5px;
+}
+
+.ptc-image{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 25px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px #888888;
+}
+.thingworx-image{
+    height: 550px;
+    width: 450px;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 25px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px #888888;
+}
+.polarian-heading:hover {
+    color: orangered;
+}
+    .polarian-heading{
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    padding: 50px;
+    color: rgb(60, 85, 226);
+    }
+  
+  .alm-description-Card {
+    font-family: montserrat, sans-serif;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 25px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px #888888;
+  }
+  .ptc-services-heading:hover {
+    color: orangered;
+  }
+  .ptc-services-heading{
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    padding: 50px;
+    font-weight: solid;
+  }
+.ptc-services-container:hover {
+         box-shadow: 0px 50px 80px -40px rgba(237, 75, 0, 0.81);
+ }
+    .ptc-services-container {
+      background-color:#ffffff;
+       border-radius: 30px 30px 30px 30px;
+       overflow: hidden;
+       padding-top: 64px;
+       padding-right: 64px;
+       padding-bottom: 32px;
+       padding-left: 40px;
+       box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+       transition: box-shadow 300ms ease 0ms;
+       margin: 20px;
+      
+      }
+
+      .ptc-services-card-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+        margin: 20px;
+        margin-top: 20px;
+        background-color: transparent;
+        background-size: cover;
+    }
+
+    @media screen and (max-width: 768px) {
+        .ptc-alm-container {
+          flex-direction: column; 
+          align-items: center;
+        }
+      
+        .thingworx-image {
+          max-width: 100%;
+          height: auto; 
+        }
+      
+        .ptc-services-card-container {
+          flex-direction: column; 
+          align-items: center;
+        }
+      
+        .ptc-services-container {
+          width: 90%; 
+        }
+      }
+    
+   */
+
+   @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+   .ptc-alm-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding: 20px;
+     margin: 20px;
+     margin-top: 20px;
+     background-color: transparent;
+     border-radius: 15px;
+     border-color: #ffffff;
+     border-width: 3px;
+     background-size: cover;
+   }
+   
+   .list-items {
+     list-style-type: none;
+     padding: 5px;
+     margin: 5px;
+   }
+   
+   .check-icons {
+     color: green;
+     padding: 5px;
+     margin: 5px;
+   }
+   
+   .ptc-image {
+     height: 400px;
+     width: 300px;
+     border-radius: 15px;
+     margin: 30px;
+     padding: 25px;
+     background-color: transparent;
+   }
+   .thingworx-image {
+     height: 100%;
+     width: 100%;
+     border-radius: 15px;
+   
+     padding: 25px;
+     background-color: transparent;
+   }
+   
+   .polarian-heading {
+     font-size: 30px !important;
+     font-weight: bold !important;
+     font-family: "Poppins", sans-serif !important;
+     color: #000000 !important;
+     padding: 20px !important;
+   }
+   
+   .alm-description-Card {
+     font-family: "Poppins", sans-serif !important;
+     border-radius: 15px;
+     margin: 30px;
+     padding: 25px;
+     background-color: transparent;
+   }
+   
+   .ptc-services-heading {
+     font-family: "Poppins", sans-serif !important;
+     text-align: center;
+     padding: 50px;
+     font-weight: solid;
+   }
+   .ptc-services-container:hover {
+     box-shadow: 0px 50px 80px -40px rgba(237, 75, 0, 0.81);
+   }
+   .ptc-services-container {
+     background-color: #ffffff;
+     border-radius: 30px 30px 30px 30px;
+     overflow: hidden;
+     padding-top: 64px;
+     padding-right: 64px;
+     padding-bottom: 32px;
+     padding-left: 40px;
+     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+     transition: box-shadow 300ms ease 0ms;
+     margin: 20px;
+     box-shadow: 1px 1px #000;
+   }
+   
+   .ptc-services-card-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding: 20px;
+     margin: 20px;
+     margin-top: 20px;
+     background-color: transparent;
+     background-size: cover;
+   }
+   
+   .line-elements {
+     padding: 10px;
+     font-size: 17px;
+     font-weight: normal;
+     font-family: "Poppins", sans-serif;
+     border-radius: 10px;
+     margin: 8px;
+     padding: 5px;
+   }
+   
+   .ptc-first-page {
+     height: 550px;
+   }
+   .ptc-first-text-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+   }
+   
+   @media screen and (max-width: 768px) {
+     /* Apply styles for screens up to 768px width */
+     .ptc-alm-container {
+       flex-direction: column; /* Change to a single column layout */
+       align-items: center; /* Center content horizontally */
+     }
+   
+     .ptc-services-card-container {
+       flex-direction: column; /* Change to a single column layout */
+       align-items: center; /* Center content horizontally */
+     }
+     .ptc-first-page {
+       height: 100%;
+     }
+     .ptc-services-container {
+       width: 90%; /* Reduce width of service containers */
+     }
+     .ptc-box {
+       min-height: 500px;
+       width: 100%;
+       margin-left: 0px;
+     }
+     .ptc-integrity-card {
+       background-color: #ffffff;
+       border-radius: 30px 30px 30px 30px;
+       box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+       transition: box-shadow 300ms ease 0ms;
+       padding: 30px;
+       height: 400px;
+     }
+     .polarian-heading {
+       font-size: 20px !important;
+       font-weight: bold !important;
+       font-family: "Poppins", sans-serif !important;
+       color: #000000 !important;
+       padding: 20px !important;
+     }
+   
+     .alm-description-Card {
+       font-family: "Poppins", sans-serif !important;
+       border-radius: 15px;
+       margin: 30px;
+       padding: 25px;
+       background-color: transparent;
+     }
+   
+     .ptc-services-heading {
+       font-family: "Poppins", sans-serif !important;
+       text-align: center;
+       padding: 50px;
+       font-weight: solid;
+     }
+     .line-elements {
+       padding: 10px;
+       font-size: 14px;
+       font-weight: normal;
+       font-family: "Poppins", sans-serif;
+       border-radius: 10px;
+       margin: 8px;
+       padding: 5px;
+     }
+   }
+   
+   @media screen and (min-width: 768px) and (max-width: 912px) {
+     .thingworx-image {
+       height: 100%;
+       width: 100%;
+     }
+     .ptc-integrity-card {
+       margin-top: 250px;
+     }
+   }
+   
+   .ptc-box {
+     border-radius: 5px;
+     box-shadow: 10px 30px 40px -20px gray;
+     margin-bottom: 30px;
+     margin-left: 85px;
+     width: 600px;
+   }
+   
+   .ptc-box li {
+     color: var(--grayishBlue);
+   }
+   
+   .polarian-bg-colour {
+     background-color: #f9f6f6;
+   }
+   
+   .polarian-cyan {
+     border-top: 3px solid red;
+   }
+   .polarian-red {
+     border-top: 3px solid green;
+   }
+   
+   .ptc-integrity-card {
+     background-color: #ffffff;
+     border-radius: 30px 30px 30px 30px;
+     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+     transition: box-shadow 300ms ease 0ms;
+     height: 100%;
+     padding: 30px;
+   }
+   
+   .ptc-reval {
+     position: relative;
+     transform: translateY(150px);
+     opacity: 0;
+     transition: all 1s ease;
+   }
+   
+   .ptc-reval.active {
+     transform: translateY(0px);
+     opacity: 1;
+   }
+   
+   .ptc-card-container {
+     display: flex;
+     justify-content: center;
+   }

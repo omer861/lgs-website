@@ -1,0 +1,135 @@
+.digital-marketing-image {
+  height: 100%;
+  width: 100%;
+  margin-top: 30px;
+  margin-right: 280px;
+}
+
+.digital-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.digital-marketing-heading {
+  font-size: 30px !important;
+  font-weight: bold !important;
+  color: #000000 !important ;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digital-content-card {
+  height: auto;
+  border-radius: 15px;
+  background-color: #fff;
+  width: 100%;
+  padding: 40px;
+  box-shadow: 0 5px 30px 5px #b4b8b8;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.digital-paragraph {
+  font-size: 20px;
+}
+
+.digital-marketing-button {
+  width: 100px;
+  color: #ffffff;
+  background-color: #1565d8;
+  font-size: 16px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.digital-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .digital-content-card {
+    height: auto;
+    border-radius: 15px;
+    background-color: #fff;
+    width: 100%;
+    padding: 40px;
+    box-shadow: 0 5px 30px 5px #b4b8b8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .digital-marketing-image {
+    height: 90%;
+    width: 90%;
+    margin: 0px;
+  }
+
+  .digital-marketing-heading {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: #000000 !important ;
+  }
+  .digital-image-container {
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .digital-marketing-image {
+    height: 400px;
+    margin: 0px;
+    width: 500px;
+  }
+
+  .heading-container {
+    width: 100%;
+  }
+  .digital-marketing-heading {
+    font-size: 25px !important;
+    font-weight: bold !important;
+    color: #000000 !important ;
+  }
+  .digital-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .digital-marketing-image {
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 0px;
+  }
+
+  .digital-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .digital-marketing-heading {
+    font-size: 30px !important;
+    font-weight: bold !important;
+    color: #000000 !important ;
+  }
+
+  .heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

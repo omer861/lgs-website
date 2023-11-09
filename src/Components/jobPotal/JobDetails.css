@@ -1,0 +1,35 @@
+/* JobDetails.css */
+.job-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #f5f5f5;
+  background-image: url("https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?size=626&ext=jpg");
+  background-size: cover;
+}
+
+
+
+.job-details-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content vertically */
+}
+
+.job-details-title {
+  text-align: center;
+  margin-top: 0; /* Remove default margin for <h2> */
+}
+
+.job-title,
+.job-description,
+.job-info {
+  margin: 10px 0;
+}

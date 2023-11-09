@@ -1,0 +1,760 @@
+/*Mobile */
+.spinner{
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  .cosultant-main-contianer {
+    width: 100%;
+    padding: 40px;
+  }
+
+  .cosultant-heading-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .consultant-page-main-heading {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .consultant-side-headings {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .consultant-description {
+    font-size: 12px;
+  }
+
+  .consultant-cards-headings {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .consultant-services-image {
+    height: 200px;
+    width: 300px;
+  }
+
+  .mendix-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+  }
+
+  .mendix-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .mendix-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .consultant-cards-description {
+    font-size: 12px;
+  }
+
+  .salesconsultant-main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .salesconsultant-data-container {
+    padding: 0px;
+  }
+
+  .salesConsultant-animation {
+    height: 350px;
+    width: 300px;
+    padding: 20px;
+  }
+
+  .consultant-frontend-main-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .consultant-frontend-main-mbl-contianer{
+    flex-direction: column-reverse;
+  }
+
+  .consultant-software-main-mbl-contianer{
+    flex-direction: column;
+
+  }
+
+  .consultant-mobile-main-mbl-contianer{
+    flex-direction: column-reverse;
+  }
+
+  .consultant-backend-main-mbl-contianer{
+    flex-direction: column;
+
+  }
+
+  .consultant-data-container {
+  }
+
+  .consultant-frontend-image {
+    width:300px;
+    height: 280px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+  .consultant-backend-image {
+    width: 300px;
+    height: 350px;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .consultant-quoutes {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+/* Extra Small Devices*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .cosultant-main-contianer {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .cosultant-heading-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .consultant-page-main-heading {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .consultant-side-headings {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .consultant-description {
+    font-size: 12px;
+  }
+
+  .consultant-cards-headings {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .consultant-services-image {
+    height: 200px;
+    width: 420px;
+  }
+
+  .mendix-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+  }
+
+  .mendix-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .mendix-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .consultant-cards-description {
+    font-size: 12px;
+  }
+
+  .salesconsultant-main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .salesconsultant-data-container {
+    padding: 0px;
+  }
+
+  .salesConsultant-animation {
+    height: 350px;
+    width: 450px;
+    padding: 20px;
+  }
+
+  .consultant-frontend-main-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .consultant-frontend-main-mbl-contianer{
+    flex-direction: column-reverse;
+  }
+
+  .consultant-software-main-mbl-contianer{
+    flex-direction: column;
+
+  }
+
+  .consultant-mobile-main-mbl-contianer{
+    flex-direction: column-reverse;
+  }
+
+  .consultant-backend-main-mbl-contianer{
+    flex-direction: column;
+
+  }
+
+  .consultant-data-container {
+  }
+
+  .consultant-frontend-image {
+    width:450px;
+    height: 310px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+  .consultant-backend-image {
+    width: 400px;
+    height: 350px;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .consultant-quoutes {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+/* Small tablets */
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  .cosultant-main-contianer {
+    padding: 50px;
+    width: 100%;
+  }
+  .consultant-page-main-heading {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .cosultant-heading-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .consultant-side-headings {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .consultant-description {
+    font-size: 12px;
+  }
+
+  .consultant-cards-headings {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .consultant-services-image {
+    height: 300px;
+    width: 350px;
+    border-radius: 10%;
+    padding: 30px;
+  }
+
+  .mendix-cards-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .mendix-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .mendix-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .salesconsultant-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .salesconsultant-data-container {
+    padding: 20px;
+  }
+
+  .salesConsultant-animation {
+    height: 400px;
+    width: 350px;
+    padding: 30px;
+  }
+
+  .consultant-frontend-main-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .consultant-data-container {
+    padding: 20px;
+  }
+
+  .consultant-frontend-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+  .consultant-backend-image {
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+
+  .consultant-quoutes {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+/* air tablets */
+@media screen and (min-width: 801px) and (max-width: 991px) {
+  .cosultant-main-contianer {
+    padding: 50px;
+    width: 100%;
+  }
+  .consultant-page-main-heading {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .cosultant-heading-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .consultant-side-headings {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .consultant-description {
+    font-size: 12px;
+  }
+
+  .consultant-cards-headings {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .consultant-services-image {
+    height: 300px;
+    width: 350px;
+    border-radius: 10%;
+    padding: 30px;
+  }
+
+  .mendix-cards-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .mendix-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .mendix-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .salesconsultant-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .salesconsultant-data-container {
+    padding: 20px;
+  }
+
+  .salesConsultant-animation {
+    height: 400px;
+    width: 350px;
+    padding: 30px;
+  }
+
+  .consultant-frontend-main-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .consultant-data-container {
+    padding: 30px;
+  }
+
+  .consultant-frontend-image {
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+  .consultant-backend-image {
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+
+  .consultant-quoutes {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+/* Large tablets / Laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .cosultant-main-contianer {
+    padding: 50px;
+    width: 100%;
+  }
+  .consultant-page-main-heading {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .cosultant-heading-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .consultant-side-headings {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .consultant-description {
+    font-size: 15px;
+  }
+
+  .consultant-cards-headings {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .consultant-services-image {
+    height: 350px;
+    width: 300px;
+    border-radius: 10%;
+    padding: 30px;
+  }
+
+  .mendix-cards-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .mendix-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .mendix-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .salesconsultant-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .salesconsultant-data-container {
+    padding: 50px;
+  }
+
+  .salesConsultant-animation {
+    height: 450px;
+    width: 450px;
+    padding: 30px;
+  }
+
+  .consultant-frontend-main-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .consultant-data-container {
+    padding: 30px;
+  }
+
+  .consultant-frontend-image {
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+  .consultant-backend-image {
+    width: 450px;
+    height: 500px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+
+  .consultant-quoutes {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .cosultant-main-contianer {
+    padding: 50px;
+    width: 100%;
+  }
+
+  .consultant-page-main-heading {
+    margin-top: 20px;
+  }
+  .cosultant-heading-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .consultant-services-image {
+    height: 400px;
+    width: 600px;
+    border-radius: 10%;
+  }
+
+  .mendix-cards-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .consultant-cards-headings {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .mendix-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .mendix-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .salesconsultant-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .salesconsultant-data-container {
+    padding: 50px;
+  }
+
+  .salesConsultant-animation {
+    height: 550px;
+    width: 550px;
+    padding: 30px;
+  }
+
+  .consultant-frontend-main-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .consultant-data-container {
+    padding: 50px;
+  }
+
+  .consultant-frontend-image {
+    width: 600px;
+    height: 450px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+  .consultant-backend-image {
+    width: 500px;
+    height: 600px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+}
+
+/* Extra large screens */
+@media screen and (min-width: 1920px) {
+  .cosultant-main-contianer {
+    padding: 50px;
+    width: 100%;
+  }
+
+  .consultant-page-main-heading {
+    margin-top: 20px;
+  }
+
+  .cosultant-heading-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .consultant-services-image {
+    height: 400px;
+    width: 600px;
+    border-radius: 10%;
+  }
+
+  .mendix-cards-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .consultant-cards-headings {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .mendix-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .mendix-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .salesconsultant-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .salesconsultant-data-container {
+    padding: 50px;
+  }
+
+  .salesConsultant-animation {
+    height: 550px;
+    width: 550px;
+    padding: 30px;
+  }
+
+  .consultant-frontend-main-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .consultant-data-container {
+    padding: 50px;
+  }
+
+  .consultant-frontend-image {
+    width: 600px;
+    height: 450px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+  .consultant-backend-image {
+    width: 500px;
+    height: 600px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+}

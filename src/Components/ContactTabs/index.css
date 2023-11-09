@@ -1,0 +1,209 @@
+/*Mobile */
+@media screen and (max-width: 480px) {
+  .contact-tab-item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+  }
+
+  .contact-tab-button {
+    background-color: #1565d8;
+    color: white;
+    border: none;
+    font-size: 16px;
+    height: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .contactactivetab {
+    color: black;
+    border-radius: 8px;
+    background-color: white;
+    border: 3px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        rgb(0 118 227 / 80%),
+        rgb(255 30 84 / 80%)
+      )
+      1;
+    border-image-slice: 1;
+  }
+}
+
+/* Extra Small Devices*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .contact-tab-item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 430px;
+  }
+
+  .contact-tab-button {
+    background-color: #1565d8;
+    color: white;
+    border: none;
+    font-size: 16px;
+    height: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .contactactivetab {
+    color: black;
+    border-radius: 8px;
+    background-color: white;
+    border: 3px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        rgb(0 118 227 / 80%),
+        rgb(255 30 84 / 80%)
+      )
+      1;
+    border-image-slice: 1;
+  }
+}
+
+/* Small tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-tab-item {
+    background-color: #e6e7e8;
+    list-style: none;
+    margin: 0;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .contact-tab-button {
+    background-color: #1565d8;
+    color: white;
+    border: none;
+    font-size: 16px;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .contactactivetab {
+    color: black;
+    background-color: white;
+    border: 3px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        rgb(0 118 227 / 80%),
+        rgb(255 30 84 / 80%)
+      )
+      1;
+    border-image-slice: 1;
+    border-radius: 5px !important;
+  }
+}
+
+/* Large tablets / Laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .contact-tab-item {
+    background-color: #e6e7e8;
+    list-style: none;
+    margin: 0;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .contact-tab-button {
+    background-color: #1565d8;
+    color: white;
+    border: none;
+    font-size: 16px;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .contactactivetab {
+    color: black;
+    background-color: white;
+    border: 3px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        rgb(0 118 227 / 80%),
+        rgb(255 30 84 / 80%)
+      )
+      1;
+    border-image-slice: 1;
+    border-radius: 5px !important;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .contact-tab-item {
+    background-color: #e6e7e8;
+    list-style: none;
+    margin: 0;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .contact-tab-button {
+    background-color: #1565d8;
+    color: white;
+    border: none;
+    font-size: 16px;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .contactactivetab {
+    color: black;
+    background-color: white;
+    border: 3px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        rgb(0 118 227 / 80%),
+        rgb(255 30 84 / 80%)
+      )
+      1;
+    border-image-slice: 1;
+    border-radius: 5px !important;
+  }
+}
+
+/* Extra large screens */
+@media screen and (min-width: 1920px) {
+  .contact-tab-item {
+    background-color: #e6e7e8;
+    list-style: none;
+    margin: 0;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .contact-tab-button {
+    background-color: #1565d8;
+    color: white;
+    border: none;
+    font-size: 16px;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .contactactivetab {
+    color: black;
+    background-color: white;
+    border: 3px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        rgb(0 118 227 / 80%),
+        rgb(255 30 84 / 80%)
+      )
+      1;
+    border-image-slice: 1;
+    border-radius: 5px !important;
+  }
+}

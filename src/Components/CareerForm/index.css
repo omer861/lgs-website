@@ -1,0 +1,45 @@
+/* Style the form container */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Style the form fields and labels */
+  .form-container div {
+    margin-bottom: 15px;
+  }
+  
+  .form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the submit button */
+  .form-container button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add media query for responsiveness */
+  @media screen and (max-width: 600px) {
+    .form-container {
+      max-width: 100%;
+    }
+  }
