@@ -4,13 +4,14 @@
   max-height: max-content;
 }
 
-.contact-page-countries-cards-main-container{
+.contact-page-countries-cards-main-container {
   width: 100%;
   justify-content: center;
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 /*Mobile */
@@ -1089,6 +1090,9 @@
     flex-direction: row;
     display: flex;
   }
+  .contact-page-countries-cards-main-container {
+    margin-top: 0%;
+  }
 }
 
 /* Extra large screens */
@@ -1294,5 +1298,8 @@
   .contact-query-checkbox-container {
     flex-direction: row;
     display: flex;
+  }
+  .contact-page-countries-cards-main-container {
+    margin-top: 0%;
   }
 }

@@ -116,7 +116,7 @@ class HomePage extends Component {
                       experiences that drive growth and inspire change.
                     </h5>
                     <h4 className="home-page-heading">
-                      Industries We are Serving{" "}
+                      Industries We are Serve{" "}
                     </h4>
                     <div className="home-page-list-container">
                       <ul>

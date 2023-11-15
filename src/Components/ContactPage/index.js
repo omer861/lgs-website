@@ -374,7 +374,7 @@ const ContactPage = () => {
           <div className="contact-form-main-contianer">{ShowForm()}</div>
         </div>
         <div className="contact-page-countries-cards-main-container">
-          <h1>WE ARE IN</h1>
+          <h1>OUR OFFICES</h1>
           <CountriesIcons />
         </div>
       </div>

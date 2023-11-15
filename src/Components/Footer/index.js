@@ -218,6 +218,7 @@ import Cookies from "js-cookie";
 import "./index.css";
 import { Link } from "react-router-dom";
 import SocialMediaButtons from "../FootersocialIcons";
+import Mobilesocialmediabtns from "../MobileSocilaMediabtns";
 
 const Footer = () => {
   const [visitCount, setVisitCount] = useState(0);
@@ -282,6 +283,7 @@ const Footer = () => {
             </div>
           </div>
           <SocialMediaButtons />
+          <Mobilesocialmediabtns />
         </div>
         <div className="col-12 col-lg-3 col-md-6 ">
           <div className="footerContact">
