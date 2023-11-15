@@ -438,7 +438,6 @@ class Header extends Component {
                   </NavLink>
                 </li>
                 <li className=" about-us-nav about-padding">
-                  .
                   <button className="hirepod-nav-home-btn">
                     <NavLink
                       to="/pods"

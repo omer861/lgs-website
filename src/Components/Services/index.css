@@ -75,6 +75,10 @@ h1:last-of-type {
   .box {
     min-height: 500px;
   }
+  .orange {
+    border-top: 3px solid skyblue;
+    margin-bottom: 35px;
+  }
 
   .box-2 {
     min-height: 250px;

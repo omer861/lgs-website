@@ -4,15 +4,31 @@
 .slide {
   background-color: transparent;
   padding: 10px;
+  width: 100%;
+  display: flex !important;
+  flex-direction: row;
 }
 
 .slider-container {
   height: 500px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
   justify-content: center;
   align-items: center;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  width: 50%;
+}
+
+.slider-image {
+  height: 350px;
+  width: 600px;
+  border-radius: 8px;
 }
 
 .slider-heading {
@@ -41,7 +57,12 @@
   width: 120px;
   padding: 5px;
   border: 3px solid transparent; /* Border width and color (transparent) */
-  border-image: linear-gradient(to right,rgb(0 118 227 / 80%), rgb(255 30 84 / 80%)) 1; /* Use the same gradient for the border */
+  border-image: linear-gradient(
+      to right,
+      rgb(0 118 227 / 80%),
+      rgb(255 30 84 / 80%)
+    )
+    1; /* Use the same gradient for the border */
   border-image-slice: 1; /* Ensure the entire border is covered by the gradient */
   border-radius: 5px !important;
 }
@@ -53,8 +74,15 @@
 }
 
 @media screen and (max-width: 767px) {
+  .image-container {
+    display: none;
+  }
+
+  .slider-image {
+    display: none;
+  }
   .slider-container {
-    height: 330px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -88,9 +116,14 @@
     width: 100px;
     height: 25px;
     border: 3px solid transparent; /* Border width and color (transparent) */
-  border-image: linear-gradient(to right,rgb(0 118 227 / 80%), rgb(255 30 84 / 80%)) 1; /* Use the same gradient for the border */
-  border-image-slice: 1; /* Ensure the entire border is covered by the gradient */
-  border-radius: 5px !important;
+    border-image: linear-gradient(
+        to right,
+        rgb(0 118 227 / 80%),
+        rgb(255 30 84 / 80%)
+      )
+      1; /* Use the same gradient for the border */
+    border-image-slice: 1; /* Ensure the entire border is covered by the gradient */
+    border-radius: 5px !important;
   }
   .slider-button:hover {
     opacity: 0.9;
@@ -114,6 +147,18 @@
     color: white !important;
   }
 
+  .image-container {
+    display: flex;
+    align-items: center;
+    height: 270px;
+    width: 50%;
+  }
+
+  .slider-image {
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+  }
   .slider-paragraph {
     font-size: 15px !important;
     font-weight: 500 !important;
@@ -135,9 +180,14 @@
     padding: 2px;
     color: white;
     border: 3px solid transparent; /* Border width and color (transparent) */
-  border-image: linear-gradient(to right,rgb(0 118 227 / 80%), rgb(255 30 84 / 80%)) 1; /* Use the same gradient for the border */
-  border-image-slice: 1; /* Ensure the entire border is covered by the gradient */
-  border-radius: 5px !important;
+    border-image: linear-gradient(
+        to right,
+        rgb(0 118 227 / 80%),
+        rgb(255 30 84 / 80%)
+      )
+      1; /* Use the same gradient for the border */
+    border-image-slice: 1; /* Ensure the entire border is covered by the gradient */
+    border-radius: 5px !important;
   }
   .slider-button:hover {
     opacity: 0.9;

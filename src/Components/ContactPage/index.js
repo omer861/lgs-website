@@ -199,11 +199,10 @@ const ContactPage = () => {
         </p>
       </div>
       <div
-        className="g-recaptcha"
         data-theme="light"
         data-sitekey="XXXXXXXXXXXXX"
         style={captchaStyles}
-        className="google-captcha-container"
+        className="google-captcha-container g-recaptcha"
       >
         <ReCAPTCHA
           sitekey={googleCaptcha}
