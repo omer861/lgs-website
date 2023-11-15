@@ -4,7 +4,7 @@
   max-height: max-content;
 }
 
-.contact-page-countries-cards-main-container{
+.contact-page-countries-cards-main-container {
   width: 100%;
   justify-content: center;
   display: flex;
@@ -34,8 +34,11 @@
   }
 
   .contactus-hero-section-description {
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
     padding-left: 12px;
+    text-align: center;
     padding-right: 10px;
   }
 
@@ -261,8 +264,11 @@
   }
 
   .contactus-hero-section-description {
-    font-size: 13px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 19px;
     padding-left: 12px;
+    text-align: center;
     padding-right: 10px;
   }
 
@@ -473,7 +479,10 @@
   }
 
   .contactus-hero-section-description {
-    font-size: 13px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
   }
 
   .checkbox-container {
@@ -680,7 +689,10 @@
   }
 
   .contactus-hero-section-description {
-    font-size: 13px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
   }
 
   .checkbox-container {
@@ -884,7 +896,11 @@
   }
 
   .contactus-hero-section-description {
-    font-size: 14px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 19px;
+
+    text-align: center;
   }
 
   .checkbox-container {
