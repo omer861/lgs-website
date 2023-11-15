@@ -1,0 +1,63 @@
+.whatsapp-image {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+.uk-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.whatsapp_web {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-country-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 2px 0 #e0e3eb, 0 2px 24px 0 #e0e3eb;
+  border-radius: 8px;
+  padding: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 5%;
+  width: 280px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-country-card:hover {
+  transform: scale(1.1);
+}
+
+.logos-cards-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.contact-country-card-description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: end;
+  margin-right: 5%;
+}
+
+.contact-country-card-para {
+  font-weight: bold;
+  margin: 0;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 700px) {
+  .contact-country-card-para {
+    font-size: 10px;
+    font-weight: 800;
+  }
+}
