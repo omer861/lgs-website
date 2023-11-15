@@ -9,6 +9,7 @@ import Footer from "../Footer";
 import Header from "../navbar";
 import ReactSelect from "react-select";
 import countries from "countries-list";
+import CountriesIcons from "../CountriesIcons";
 
 const tabsList = [
   { tabId: "Services", displayText: "Request for Services" },
@@ -370,6 +371,10 @@ const ContactPage = () => {
             ))}
           </ul>
           <div className="contact-form-main-contianer">{ShowForm()}</div>
+        </div>
+        <div className="contact-page-countries-cards-main-container">
+          <h1>WE ARE IN</h1>
+          <CountriesIcons />
         </div>
       </div>
       <Footer />
