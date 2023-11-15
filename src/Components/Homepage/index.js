@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ReactSlick from "../Slider";
-import ImageSlider from "../ImageSlider";
 import WhyUs from "../Whyus";
 import about from "../images/whyusimage.png";
 import StartPopup from "../StartPopup";
@@ -96,11 +95,8 @@ class HomePage extends Component {
             <div>
               <div className="container-fluid">
                 <div className="home-page-slider-main-container row">
-                  <div className="col-12 col-md-6">
+                  <div className="col-12 col-md-6 w-100">
                     <ReactSlick />
-                  </div>
-                  <div className="col-12 col-md-6">
-                    <ImageSlider />
                   </div>
                 </div>
 

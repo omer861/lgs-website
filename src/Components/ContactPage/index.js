@@ -1,7 +1,6 @@
-
 import "./index.css";
 import "./index.css";
-import { Component, useState,useEffect } from "react";
+import { Component, useState, useEffect } from "react";
 import ContactTabItem from "../ContactTabs";
 import { Navigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,7 +18,7 @@ const tabsList = [
 
 // Write your code here
 
-const googleCaptcha = process.env.REACT_APP_CAPTCHA
+const googleCaptcha = process.env.REACT_APP_CAPTCHA;
 
 const ContactPage = () => {
   const [tab, changeTabId] = useState(tabsList[0].tabId);
@@ -199,11 +198,10 @@ const ContactPage = () => {
         </p>
       </div>
       <div
-        className="g-recaptcha"
         data-theme="light"
         data-sitekey="XXXXXXXXXXXXX"
         style={captchaStyles}
-        className="google-captcha-container"
+        className="google-captcha-container g-recaptcha"
       >
         <ReCAPTCHA
           sitekey={googleCaptcha}
@@ -313,11 +311,10 @@ const ContactPage = () => {
         </p>
       </div>
       <div
-        className="g-recaptcha"
         data-theme="light"
         data-sitekey="XXXXXXXXXXXXX"
         style={captchaStyles}
-        className="google-captcha-container"
+        className="google-captcha-container g-recaptcha"
       >
         <ReCAPTCHA
           sitekey={googleCaptcha}
