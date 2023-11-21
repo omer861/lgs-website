@@ -101,17 +101,17 @@ function App() {
           <Route exact path="/testing" element={<TestingPage />} />
           <Route path="/career/:id" element={<JobDetails />} />
           <Route
-            path="/umarmohammadsheikh/dashboard"
+            path="/admin/dashboard"
             element={
               isAuthenticated ? (
                 <AdminDashboard />
               ) : (
-                <Navigate to="/umarmohammadsheikh" />
+                <Navigate to="/admin/login" />
               )
             }
           />
           {/* Login page */}
-          <Route path="/umarmohammadsheikh" element={<AdminLoginPage />} />
+          <Route path="/admin/login" element={<AdminLoginPage />} />
           <Route path="/faqsPage" element={<Faqpage />} />
           <Route path="/pods" Component={Pods} />
         </Routes>
