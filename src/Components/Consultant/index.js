@@ -2,14 +2,14 @@ import { Component } from "react";
 import { Link } from "react-router-dom";
 import Header from "../navbar";
 import Footer from "../Footer";
-import Services from "../images/services.jpg";
-import Rapid from "../images/rapid.png";
+import Services from "../images/services.webp";
+import Rapid from "../images/rapid.webp";
 import Lottie from "lottie-react";
 import salesConsultant from "./salesConsultant.json";
-import frontenddevelopment from "../images/frontenddevelopment.jpg";
-import backenddevelopment from "../images/backenddevelopment.jpg";
-import mobiledevelopment from "../images/mobiledevelopment.jpg";
-import softwaredevelopment from "../images/softwaredevelopment.jpg";
+import frontenddevelopment from "../images/frontenddevelopment.webp";
+import backenddevelopment from "../images/backenddevelopment.webp";
+import mobiledevelopment from "../images/mobiledevelopment.webp";
+import softwaredevelopment from "../images/softwaredevelopment.webp";
 import { BeatLoader } from "react-spinners";
 
 import "./index.css";
@@ -19,7 +19,7 @@ class Consultant extends Component {
 
   componentDidMount() {
     // Simulate an API call or any async operation
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
     setTimeout(() => {
       this.setState({ loading: false }); // Set loading to false when your data is ready
     }, 500);
@@ -71,7 +71,7 @@ class Consultant extends Component {
             </div>
             <div className="mendix-cards-container">
               <div className="mendix-card">
-                <img className="mendix-icon" src={Rapid} />
+                <img alt="rapid" className="mendix-icon" src={Rapid} />
                 <h6 className="consultant-cards-headings">Mendix Rapid</h6>
                 <p className="consultant-cards-description">
                   Rapid developers specialize in building and deploying
@@ -82,7 +82,7 @@ class Consultant extends Component {
                 </p>
               </div>
               <div className="mendix-card">
-                <img className="mendix-icon" src={Rapid} />
+                <img alt="rapid" className="mendix-icon" src={Rapid} />
                 <h6 className="consultant-cards-headings">
                   Mendix Intermediate
                 </h6>
@@ -95,7 +95,7 @@ class Consultant extends Component {
                 </p>
               </div>
               <div className="mendix-card">
-                <img className="mendix-icon" src={Rapid} />
+                <img alt="rapid" className="mendix-icon" src={Rapid} />
                 <h6 className="consultant-cards-headings">Mendix Advanced</h6>
                 <p className="consultant-cards-description">
                   Mendix advanced developers have progressed beyond the basics
@@ -131,7 +131,7 @@ class Consultant extends Component {
             </div>
             <div className="mendix-cards-container">
               <div className="mendix-card">
-                <img className="mendix-icon" src={Rapid} />
+                <img alt="rapid" className="mendix-icon" src={Rapid} />
                 <h6 className="consultant-cards-headings">Configuration</h6>
                 <p className="consultant-cards-description">
                   Our polarion developers play a crucial role in working with
@@ -142,7 +142,7 @@ class Consultant extends Component {
                 </p>
               </div>
               <div className="mendix-card">
-                <img className="mendix-icon" src={Rapid} />
+                <img alt="rapid" className="mendix-icon" src={Rapid} />
                 <h6 className="consultant-cards-headings">Customization</h6>
                 <p className="consultant-cards-description">
                   Through customization, the client’s experience with the
@@ -154,7 +154,7 @@ class Consultant extends Component {
                 </p>
               </div>
               <div className="mendix-card">
-                <img className="mendix-icon" src={Rapid} />
+                <img alt="rapid" className="mendix-icon" src={Rapid} />
                 <h6 className="consultant-cards-headings">Integration</h6>
                 <p className="consultant-cards-description">
                   We not only configure Polarion ALM, but also integrate it with
@@ -220,6 +220,7 @@ class Consultant extends Component {
               </div>
               <div>
                 <img
+                  alt="consultantfrontend"
                   className="consultant-frontend-image"
                   src={frontenddevelopment}
                 />
@@ -228,6 +229,7 @@ class Consultant extends Component {
             <div className="consultant-frontend-main-contianer consultant-backend-main-mbl-contianer">
               <div>
                 <img
+                  alt="consultantbackend"
                   className="consultant-backend-image"
                   src={backenddevelopment}
                 />
@@ -277,6 +279,7 @@ class Consultant extends Component {
               </div>
               <div>
                 <img
+                  alt="mobiledev"
                   className="consultant-frontend-image"
                   src={mobiledevelopment}
                 />
@@ -285,6 +288,7 @@ class Consultant extends Component {
             <div className="consultant-frontend-main-contianer consultant-software-main-mbl-contianer">
               <div>
                 <img
+                  alt="softwaredev"
                   className="consultant-frontend-image"
                   src={softwaredevelopment}
                 />

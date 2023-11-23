@@ -1,17 +1,15 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
-import polarianCard from "../images/polarian2.png";
-import mendixCard from "../images/mendix2.png";
-import digitalmarketingCard from "../images/digitalmarketing2.png";
-import webdevelopmentCard from "../images/webdevelopment.png";
-
+import polarianCard from "../images/polarian2.webp";
+import mendixCard from "../images/mendix2.webp";
+import digitalmarketingCard from "../images/digitalmarketing2.webp";
+import webdevelopmentCard from "../images/webdevelopment.webp";
 
 class Services extends Component {
   componentDidMount() {
     // Attach the scroll event listener to the window
     window.addEventListener("scroll", this.handleScroll);
-
   }
 
   componentWillUnmount() {
@@ -34,7 +32,6 @@ class Services extends Component {
   };
   render() {
     return (
-
       <div>
         <div className="row1-container">
           <div className="box box-down cyan services-reval">

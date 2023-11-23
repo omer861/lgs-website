@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css"; // Make sure to create and import your CSS file
+import "./index.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -59,7 +59,7 @@ const SocialMediaButtons = () => {
         </a>
       </div>
       <div className="contact-page-social-icon-container contact-page-youtube-container">
-        <a href="#" className="contact-page-social-icon-anchor">
+        <a href="##" className="contact-page-social-icon-anchor">
           <div className="contact-page-social-icon-tooltip">Youtube</div>
           <span>
             <FaYoutube className="contact-page-social-icon" />

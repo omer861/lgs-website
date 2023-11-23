@@ -1,8 +1,8 @@
-import uklogo from "../images/uklogo.png";
-import usalogo from "../images/usalogo.png";
-import uaelogo from "../images/uaelogo.png";
+import uklogo from "../images/uklogo.webp";
+import usalogo from "../images/usalogo.webp";
+import uaelogo from "../images/uaelogo.webp";
 
-import indialogo from "../images/indialogo.png";
+import indialogo from "../images/indialogo.webp";
 import "./index.css";
 
 const CountriesIcons = () => {

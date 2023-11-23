@@ -1,6 +1,5 @@
 import "./index.css";
-import "./index.css";
-import { Component, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import ContactTabItem from "../ContactTabs";
 import { Navigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -133,7 +132,7 @@ const ContactPage = () => {
     setIsQueryRecaptchaVerified(true);
   };
 
-  const [captchaStyles, setCaptchaStyles] = useState({
+  const [captchaStyles] = useState({
     transform: "scale(0.77)",
     WebkitTransform: "scale(0.77)",
     transformOrigin: "0 0",
@@ -195,7 +194,7 @@ const ContactPage = () => {
         <p className="contact-terms-description">
           For more information about how Labyrinth Global Solutions protects
           your privacy and processes your personal data please see our{" "}
-          <a>Privacy Policy</a>
+          <a href="##">Privacy Policy</a>
         </p>
       </div>
       <div
@@ -308,7 +307,7 @@ const ContactPage = () => {
         <p className="contact-terms-description">
           For more information about how Labyrinth Global Solutions protects
           your privacy and processes your personal data please see our{" "}
-          <a>Privacy Policy</a>
+          <a href="##">Privacy Policy</a>
         </p>
       </div>
       <div

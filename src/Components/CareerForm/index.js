@@ -57,7 +57,7 @@ const CareerForm = () => {
       formDataToSend.append("noticePeriod", formData.noticePeriod);
       formDataToSend.append("resume", formData.resume);
 
-      const apiUrl = process.env.REACT_APP_API_BASE_URL
+      const apiUrl = process.env.REACT_APP_API_BASE_URL;
       // Send the form data to the server using axios
       const response = await axios.post(
         `${apiUrl}/career-form`,
@@ -94,9 +94,7 @@ const CareerForm = () => {
   };
 
   return (
-    
     <form className="form-container" onSubmit={handleSubmit}>
-      
       <div>
         <label>Name *</label>
         <input

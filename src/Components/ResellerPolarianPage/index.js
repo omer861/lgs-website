@@ -1,11 +1,15 @@
 import { Component } from "react";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import polarioncsm from "../images/polarioncsm.webp";
+import polarionsafeicon from "../images/polarionsafeicon.webp";
+import polarionmendixicon from "../images/polarionmedicalicon.png";
+import mendixembededicon from "../images/mendixembededicon.webp";
+import polarioanautomotiveicon from "../images/polarioanautomotiveicon.webp";
+import polarionaerospaceicon from "../images/polarionaerospaceicon.webp";
 import Header from "../navbar";
 import Footer from "../Footer";
 import { BeatLoader } from "react-spinners";
-import ploarionlifecycle from "./ploarionlifecycle.json";
-import Lottie from "lottie-react";
 
 class ResellerPolarian extends Component {
   state = { loading: true };
@@ -55,8 +59,6 @@ class ResellerPolarian extends Component {
                   className="polaranpic"
                   src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689667771/1_xBu5h-5wTAzLvjvAZw6DZA_fspbjh.webp"
                 />
-
-
               </div>
             </div>
 
@@ -65,7 +67,7 @@ class ResellerPolarian extends Component {
                 <img
                   alt="mendixpic"
                   className="polarian-second-pic"
-                  src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1690458028/csm_Functional-Safety-automotive_b35b168de7_eu75p1.jpg"
+                  src={polarioncsm}
                 />
               </div>
               <div className="reseller-polarian-side-description col-12 col-md-6">
@@ -107,7 +109,7 @@ class ResellerPolarian extends Component {
                     <div className="polarian-card">
                       <div className="img-box">
                         <img
-                          src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689920542/SAFe_kiglfu.png"
+                          src={polarionsafeicon}
                           alt="safe"
                           className="img-box-image-polarion"
                         />
@@ -128,10 +130,7 @@ class ResellerPolarian extends Component {
                   <div className="card-container">
                     <div className="polarian-card">
                       <div className="img-box">
-                        <img
-                          src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689920535/medical_s0sgks.png"
-                          alt="seo-friendly"
-                        />
+                        <img src={polarionmendixicon} alt="seo-friendly" />
                       </div>
                       <div className="content">
                         <h1 className="polarian-resellsr-card-heading">
@@ -153,7 +152,7 @@ class ResellerPolarian extends Component {
                       <div className="img-box">
                         <img
                           className="chat-image"
-                          src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689920528/embeded_bvh4fr.jpg"
+                          src={mendixembededicon}
                           alt="chat-social"
                         />
                       </div>
@@ -174,10 +173,7 @@ class ResellerPolarian extends Component {
                   <div className="card-container">
                     <div className="polarian-card">
                       <div className="img-box">
-                        <img
-                          src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689920519/automotive_jenrnw.png"
-                          alt="theme"
-                        />
+                        <img src={polarioanautomotiveicon} alt="theme" />
                       </div>
                       <div className="content">
                         <h1 className="polarian-resellsr-card-heading">
@@ -197,7 +193,7 @@ class ResellerPolarian extends Component {
                       <div className="img-box">
                         <img
                           className="chat-image"
-                          src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689920499/aerospace_jtyuam.jpg"
+                          src={polarionaerospaceicon}
                           alt="chat-social"
                         />
                       </div>

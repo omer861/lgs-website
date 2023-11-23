@@ -169,8 +169,6 @@ const MobilleDevelopmentDetails = [
   },
 ];
 
-let Details = MendixDetails;
-
 const Faqpage = () => {
   const [active, setActive] = useState("mendix");
   const [Details, setDetails] = useState(MendixDetails);
@@ -203,47 +201,46 @@ const Faqpage = () => {
 
   return (
     <>
-    <Header />
-    <div className="faq-page-main-container">
-    
-      <h1>FAQ</h1>
-      <div className="faq-page-mini-container">
-        <ul className="faq-page-tabs-unordered-list-container">
-          <li>
-            <button onClick={onchangeMendix} value="mendix">
-              Mendix
-            </button>
-          </li>
-          <li>
-            <button onClick={onchangeMendix} value="polarion">
-              Polarion
-            </button>
-          </li>
-          <li>
-            <button onClick={onchangeMendix} value="salesforce">
-              Salesforce
-            </button>
-          </li>
-          <li>
-            <button onClick={onchangeMendix} value="development">
-              Web Design & Development
-            </button>
-          </li>
-          <li>
-            <button onClick={onchangeMendix} value="mobileapplication">
-              Mobile Application
-            </button>
-          </li>
-        </ul>
-        <ul className="Faq-page-faqs-container">
-          {Details.map((eachItem) => (
-            <FaqItem key={eachItem.id} details={eachItem} />
-          ))}
-        </ul>
-        <div></div>
+      <Header />
+      <div className="faq-page-main-container">
+        <h1>FAQ</h1>
+        <div className="faq-page-mini-container">
+          <ul className="faq-page-tabs-unordered-list-container">
+            <li>
+              <button onClick={onchangeMendix} value="mendix">
+                Mendix
+              </button>
+            </li>
+            <li>
+              <button onClick={onchangeMendix} value="polarion">
+                Polarion
+              </button>
+            </li>
+            <li>
+              <button onClick={onchangeMendix} value="salesforce">
+                Salesforce
+              </button>
+            </li>
+            <li>
+              <button onClick={onchangeMendix} value="development">
+                Web Design & Development
+              </button>
+            </li>
+            <li>
+              <button onClick={onchangeMendix} value="mobileapplication">
+                Mobile Application
+              </button>
+            </li>
+          </ul>
+          <ul className="Faq-page-faqs-container">
+            {Details.map((eachItem) => (
+              <FaqItem key={eachItem.id} details={eachItem} />
+            ))}
+          </ul>
+          <div></div>
+        </div>
       </div>
-    </div>
-    <Footer />
+      <Footer />
     </>
   );
 };

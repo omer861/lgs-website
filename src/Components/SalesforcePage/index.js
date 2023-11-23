@@ -4,18 +4,23 @@ import Lottie from "lottie-react";
 import Header from "../navbar";
 import Footer from "../Footer";
 import { BeatLoader } from "react-spinners";
+import salesforcenotesicon from "../images/salesforcenotesicon.webp";
+import salesforcetree from "../images/salesforcetree.webp";
+import salesforcesolicon from "../images/salesforcesolicon.webp";
+import salesforcehandshake from "../images/salesforcehandshake.webp";
+import salesforcezoomicon from "../images/salesforcezoomicon.webp";
 import "./index.css";
 
 const SalesForceList = [
   {
     id: 1,
     title: "Expertise and Guidance",
-    src: "https://png.pngtree.com/png-vector/20190622/ourmid/pngtree-checklistcheckexpertiselistclipboard-flat-color-icon-vec-png-image_1490531.jpg",
+    src: salesforcenotesicon,
   },
   {
     id: 2,
     title: "Seamless Implementation",
-    src: "https://www.pngall.com/wp-content/uploads/4/Solution-PNG-Images.png",
+    src: salesforcesolicon,
   },
   {
     id: 3,
@@ -25,30 +30,29 @@ const SalesForceList = [
   {
     id: 4,
     title: "Value-Added Services",
-    src: "https://w7.pngwing.com/pngs/432/490/png-transparent-value-added-trade-service-flags-text-service-logo.png",
+    src: salesforcetree,
   },
   {
     id: 5,
     title: "Long-Term Partnership",
-    src: "https://png.pngtree.com/png-clipart/20220812/ourmid/pngtree-handshake-partnership-deal-png-image_6105842.png",
+    src: salesforcehandshake,
   },
   {
     id: 6,
     title: "Data-Driven Insights",
-    src: "https://cdn-icons-png.flaticon.com/512/2620/2620254.png",
+    src: salesforcezoomicon,
   },
 ];
 
 class SalesForce extends Component {
-  state = {loading: true}
+  state = { loading: true };
   componentDidMount() {
     // Attach the scroll event listener to the window
     window.addEventListener("scroll", this.handleScroll);
-      // Simulate an API call or any async operation
-      setTimeout(() => {
-        this.setState({ loading: false }); // Set loading to false when your data is ready
-      }, 500); // Simulating a 2-second delay
-
+    // Simulate an API call or any async operation
+    setTimeout(() => {
+      this.setState({ loading: false }); // Set loading to false when your data is ready
+    }, 500); // Simulating a 2-second delay
   }
 
   componentWillUnmount() {
@@ -70,7 +74,7 @@ class SalesForce extends Component {
     }
   };
   render() {
-    const {loading} = this.state
+    const { loading } = this.state;
     return (
       <>
         <Header />
@@ -129,7 +133,10 @@ class SalesForce extends Component {
                 LABYRINTH OFFERING
               </h1>
               {SalesForceList.map((eachSale) => (
-                <div key={eachSale.title} className="col-md-6 col-12 col-lg-4 my-5 d-flex justify-content-center salesforce-reval">
+                <div
+                  key={eachSale.title}
+                  className="col-md-6 col-12 col-lg-4 my-5 d-flex justify-content-center salesforce-reval"
+                >
                   <div className="sales-box sales-dark-graybg p-4 sales-radius5">
                     <figure>
                       {" "}
@@ -154,7 +161,7 @@ class SalesForce extends Component {
             </div>
           </div>
         )}
-        
+
         <Footer />
       </>
     );

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
-import mendix from "../images/mendix.png";
-import salesforce from "../images/salesforce.jpg";
-import polarian from "../images/polarian.png";
-import webdesign from "../images/webdesign.jpg";
-import mobile from "../images/mobile.jpg";
-import digital from "../images/marketing.jpg";
+import mendix from "../images/mendix.webp";
+import salesforce from "../images/salesforce.webp";
+import polarian from "../images/polarian.webp";
+import webdesign from "../images/webdesign.webp";
+import mobile from "../images/mobile.webp";
+import digital from "../images/marketing.webp";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

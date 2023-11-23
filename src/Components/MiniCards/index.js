@@ -1,9 +1,9 @@
 import React from "react";
 import "./index.css";
-import MSME from "../images/MSME.png";
-import THub from "../images/T-Hub.png";
-import Startup from "../images/startup image.png";
-import Gem from "../images/Gem.png";
+import MSME from "../images/MSME.webp";
+import THub from "../images/T-Hub.webp";
+import Startup from "../images/startup image.webp";
+import Gem from "../images/Gem.webp";
 const Minicards = () => {
   return (
     <div className="mtsg-card">

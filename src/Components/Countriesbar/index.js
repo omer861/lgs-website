@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import uklogo from "../images/uklogo.png";
-import Twitter from '../images/Twitter-logo.png'
+import Twitter from "../images/Twitter-logo.png";
 import "./index.css";
 
 class CountriesBar extends Component {
@@ -26,11 +26,7 @@ class CountriesBar extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={Twitter}
-                alt="twitter"
-                className="twitter-icon-image"
-              />
+              <img src={Twitter} alt="twitter" className="twitter-icon-image" />
             </a>
             <a
               href="https://www.linkedin.com/company/14662183/admin/feed/posts/"

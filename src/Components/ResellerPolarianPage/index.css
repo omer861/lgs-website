@@ -99,59 +99,6 @@
   align-items: center;
 }
 
-/* 
-
-.feature-box {
-    height: 250px;
-    width: 250px;
-}  
-.dark-graybg {
-    background-color: #373f52;
-}
-.radius5 {
-    border-radius: 5px;
-}
-.my-5 {
-    margin-top: 3rem !important;
-    margin-bottom: 3rem !important;
-}
-
-.feature-box-description{
-}
-
-.feature-box figure .img-block {
-    height: 100px;
-    width: 100px;
-    margin: -70px auto 40px;
-    border: 1px solid #464f63;
-    border-radius: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-.feature-box figure .img-block {
-    height: 100px;
-    width: 100px;
-    margin: -70px auto 40px;
-    border: 1px solid #464f63;
-    border-radius: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-.bgdarkblue {
-    background-color: #ffffff;
-}
-.polarian-card-image {
-    border-radius: 40%;
-  }
-.polarian-card-image-2 {
-    border-radius: 50%;
-  }
- */
-
 /*Hover cards*/
 .card-container {
   position: relative;

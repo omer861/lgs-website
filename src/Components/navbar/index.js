@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import { Component } from "react";
-import logo from "../images/companylogo.jpg";
+import logo from "../images/companylogo.webp";
 
 import "./index.css";
 
@@ -17,37 +17,6 @@ class Header extends Component {
   onClickNavItem = () => {
     this.setState((prevState) => ({ showmblItems: !prevState.showmblItems }));
   };
-
-  // showMblNavminiItems = () => {
-  //   const { showmblItems } = this.state;
-  //   console.log(showmblItems);
-  //   return (
-  //     <ul className="mbl-Nav-Service-container-items">
-  //         <li className="Headeroption-item">
-  //         <Link to="/polarianalm" className="link">Polarion ALM
-  //         </Link>
-  //         </li>
-
-  //       <Link to="/saascloudsolutions" className="link">
-  //         <li className="Headeroption-item">SAAS & cloud Solutions</li>
-  //       </Link>
-  //       <Link to="/ptcintegrity" className="link">
-  //         <li className="Headeroption-item">PTC Integrity</li>
-  //       </Link>
-  //       <Link to="/mobileandappdevelopment" className="link">
-  //         <li className="Headeroption-item">Mobile & APP Development</li>
-  //       </Link>
-  //       <Link to="/resellermendix" className="link">
-  //         <li className="Headeroption-item">Mendix</li>
-  //       </Link>
-  //       <Link to="/salesforcepage" className="link">
-  //         <li className="Headeroption-item">Sales Force</li>
-  //       </Link>
-  //     </ul>
-  //   );
-  // };
-
-  // Mobile View Navbar Code
 
   renderNavItems = () => {
     return (

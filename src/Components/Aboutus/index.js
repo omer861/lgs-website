@@ -1,8 +1,7 @@
 import ReactPlayer from "react-player";
 
 import "./index.css";
-import aboutus from "../images/AboutUs.jpg";
-import mission from "../images/Mission.jpg";
+
 import video from "../images/Core Values.mp4";
 import whychoosevideo from "../images/whyChooseLGS.mp4";
 import Footer from "../Footer";
@@ -13,8 +12,7 @@ import { BiLowVision } from "react-icons/bi";
 import { GiJumpAcross } from "react-icons/gi";
 import { BiSolidQuoteAltLeft, BiSolidQuoteAltRight } from "react-icons/bi";
 import React, { Component } from "react";
-import aboutusImage from "../images/aboutusbannerimage.png";
-import { icons } from "react-icons";
+import aboutusImage from "../images/aboutusbannerimage.webp";
 
 class about extends Component {
   state = { loading: true };
@@ -69,7 +67,7 @@ class about extends Component {
               <div className="about-us-banner-img-contianer">
                 <img
                   className="aboutus-banner-img"
-                  alt="aboutus-banner-image"
+                  alt="aboutusbanner"
                   src={aboutusImage}
                 />
               </div>
@@ -91,7 +89,7 @@ class about extends Component {
                     </p>
                   </div>
                   <div className="about-us-quote">
-                    <h3 style={{textAlign: 'center'}}>
+                    <h3 style={{ textAlign: "center" }}>
                       <BiSolidQuoteAltLeft />
                       Committed to Excellence, Crafting Success, One Client at a
                       Time.

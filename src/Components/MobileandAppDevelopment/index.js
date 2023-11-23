@@ -5,19 +5,25 @@ import { BsArrowRightShort } from "react-icons/bs";
 import { TiTick } from "react-icons/ti";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BeatLoader } from "react-spinners";
+import MappResponsive from "../images/MappResponsive.webp";
+import Mappseofriendly from "../images/Mapp-seofriendly.webp";
+import Mappbrowsers from "../images/Mappbrowsers.webp";
+import Mappuserexp from "../images/Mappuserexp.webp";
+import Mappnotes from "../images/Mappnotes.webp";
+import Mappcybersec from "../images/Mappcybersec.webp";
 
 import "./index.css";
 
 const HoverCardList = [
   {
     id: 1,
-    src: "https://www.12grids.com/uploads/blogs/original_cover_images/7-reasons-why-responsive-web-design-is-important-why-you-should-embrace-it-1.png",
+    src: MappResponsive,
     heading: "RESPONSIVE WEBSITES",
     para: "We strive to ensure that your website looks great across different devices and offers best user experience.",
   },
   {
     id: 2,
-    src: "https://www.brandignity.com/wp-content/uploads/2016/07/seo-friendly-website-design.jpg",
+    src: Mappseofriendly,
     heading: "SEO FRIENDLY",
     para: "We can optimize your website to make it SEO friendly and help it reach the top in Google search results.",
   },
@@ -31,7 +37,7 @@ const HoverCardList = [
   {
     id: 4,
     class: "chat-image",
-    src: "https://i0.wp.com/www.energise.co.nz/wp-content/uploads/2019/07/browsers.png?resize=640%2C640&ssl=1",
+    src: Mappbrowsers,
     heading: "Has Cross Browser Compatibility",
     para: "The latest versions of internet browsers have come a long way in making sure that you get a consistent browsing experience.",
   },
@@ -43,21 +49,21 @@ const HoverCardList = [
   },
   {
     id: 6,
-    src: "https://static.vecteezy.com/system/resources/previews/005/746/564/original/user-experience-design-gradient-icon-for-dark-theme-product-integration-process-support-user-behavior-thin-line-color-symbol-modern-style-pictogram-isolated-outline-drawing-vector.jpg",
+    src: Mappuserexp,
     heading: "CUSTOMIZE / THEME INTEGRATION",
     para: "We make sure to adjust the style and aesthetic value that suit your brand in the best possible manner",
   },
   {
     id: 7,
     class: "chat-image",
-    src: "https://cdn-icons-png.flaticon.com/512/1484/1484799.png",
+    src: Mappnotes,
     heading: "INQUIRY FORM INTEGRATION",
     para: "We allow your visitors to make a general inquiry about your products or services without efforts",
   },
   {
     id: 8,
     class: "chat-image",
-    src: "https://smartinternz.com/assets/2023/Fac_buidathon/cyber-security.png",
+    src: Mappcybersec,
     heading: "Must Have Top Security",
     para: "Robust website security fortifies your digital presence,safeguarding users and data from potential threats,providing peace of mind",
   },
@@ -163,7 +169,10 @@ class WebMobile extends Component {
                 Web Development Features
               </h1>
               {HoverCardList.map((eachHoverImage) => (
-                <div key={eachHoverImage.id} className="col-12 col-md-6 col-lg-3 web-reval">
+                <div
+                  key={eachHoverImage.id}
+                  className="col-12 col-md-6 col-lg-3 web-reval"
+                >
                   <div className="card-container">
                     <div className="card">
                       <div className="img-box">

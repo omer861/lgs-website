@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import meet from "../images/meeting.jpg";
+import meet from "../images/meeting.webp";
 import Header from "../navbar";
 import Footer from "../Footer";
 import { BeatLoader } from "react-spinners";
@@ -29,7 +29,7 @@ class DigitalMarketing extends Component {
 
   componentDidMount() {
     // Simulate an API call or any async operation
-    window.scrollTo(0,0)
+    window.scrollTo(0, 0);
     setTimeout(() => {
       this.setState({ loading: false }); // Set loading to false when your data is ready
     }, 2000); // Simulating a 2-second delay
@@ -44,34 +44,30 @@ class DigitalMarketing extends Component {
             <BeatLoader size={20} color={"#123abc"} loading={loading} />
           </div>
         ) : (
-            <div className="container-fluid">
-              <div className="row">
-                <div className="col-12 col-md-6 heading-container">
-                  <h1 className="digital-marketing-heading">
-                    DIGITAL MARKETING
-                  </h1>
-                </div>
-                <div className="col-12 col-md-6 digital-image-container">
-                  <img
-                    src={meet}
-                    alt="meeting"
-                    className="digital-marketing-image"
-                  />
-                </div>
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-12 col-md-6 heading-container">
+                <h1 className="digital-marketing-heading">DIGITAL MARKETING</h1>
               </div>
-              <div className="row mt-5 p-5">
-                {DigitalCardDetails.map((eachDetail) => (
-                  <div
-                    className="col-12 digital-content-card"
-                    key={eachDetail.id}
-                  >
-                    <p className="digital-paragraph">
-                      {eachDetail.description}
-                    </p>
-                  </div>
-                ))}
+              <div className="col-12 col-md-6 digital-image-container">
+                <img
+                  src={meet}
+                  alt="meeting"
+                  className="digital-marketing-image"
+                />
               </div>
             </div>
+            <div className="row mt-5 p-5">
+              {DigitalCardDetails.map((eachDetail) => (
+                <div
+                  className="col-12 digital-content-card"
+                  key={eachDetail.id}
+                >
+                  <p className="digital-paragraph">{eachDetail.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         )}
 
         <Footer />

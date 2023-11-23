@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import ReactSlick from "../Slider";
 import WhyUs from "../Whyus";
-import about from "../images/whyusimage.png";
+import about from "../images/whyusimage.webp";
 import StartPopup from "../StartPopup";
 import HomepageHeader from "../HomePageNavbar";
-import Chat from "../chat";
 import Services from "../Services";
 import { BsArrowRightShort } from "react-icons/bs";
 import { TiTick } from "react-icons/ti";
@@ -14,7 +13,7 @@ import "./index.css";
 import IndustriesPage from "../IndustriesPage";
 import TechnologiesPage from "../Technologies";
 import Card from "../Card";
-import lgshome from "../images/lgsaboutushomei.png";
+import lgshome from "../images/lgshome.webp";
 import Minicards from "../MiniCards";
 import { BeatLoader } from "react-spinners";
 import Footer from "../Footer";
@@ -205,7 +204,6 @@ class HomePage extends Component {
                   </div>
                 </div>
                 <StartPopup />
-                {/* <Chat /> */}
               </div>
             </div>
           )}

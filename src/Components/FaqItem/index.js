@@ -1,12 +1,12 @@
 import { Component } from "react";
+import plusicon from "../images/faqs-plus-icon-img.webp";
+import minusicon from "../images/faqs-minus-icon-img.webp";
 
 import "./index.css";
 
-const PLUS_IMAGE =
-  "https://assets.ccbp.in/frontend/react-js/faqs-plus-icon-img.png";
+const PLUS_IMAGE = plusicon;
 
-const MINUS_IMAGE =
-  "https://assets.ccbp.in/frontend/react-js/faqs-minus-icon-img.png";
+const MINUS_IMAGE = minusicon;
 
 class FaqItem extends Component {
   state = {
