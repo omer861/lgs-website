@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import axios from "axios";
-import Jobs from "../jobPotal/jobs";
 
 const apiUrl = process.env.REACT_APP_API_BASE_URL;
 const googleCaptcha = process.env.REACT_APP_CAPTCHA;
@@ -24,7 +23,7 @@ const ContactForm = () => {
     resume: null,
   });
 
-  const [captchaStyles, setCaptchaStyles] = useState({
+  const [captchaStyles] = useState({
     transform: "scale(0.77)",
     WebkitTransform: "scale(0.77)",
     transformOrigin: "0 0",
@@ -300,11 +299,10 @@ const ContactForm = () => {
               />
             </div>
             <div
-              className="g-recaptcha"
               data-theme="light"
               data-sitekey="XXXXXXXXXXXXX"
               style={captchaStyles}
-              className="google-captcha-container"
+              className="google-captcha-container g-recaptcha"
             >
               <ReCAPTCHA
                 className="mt-2"

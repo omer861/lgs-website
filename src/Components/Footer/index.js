@@ -1,15 +1,16 @@
-import { BiPhoneCall, BiLogoFacebook, BiLogoGmail } from "react-icons/bi";
+import { BiPhoneCall, BiLogoGmail } from "react-icons/bi";
 import React, { useEffect, useState } from "react";
 import { FaGreaterThan } from "react-icons/fa";
-import { TiSocialLinkedin } from "react-icons/ti";
-import { AiOutlineTwitter } from "react-icons/ai";
+
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import VisitTracker from "../Tracker";
 import Cookies from "js-cookie";
-
+import footerbg from '../images/footerbg.webp'
 import "./index.css";
 import { Link } from "react-router-dom";
+import SocialMediaButtons from "../FootersocialIcons";
+import Mobilesocialmediabtns from "../MobileSocilaMediabtns";
 
 const Footer = () => {
   const [visitCount, setVisitCount] = useState(0);
@@ -50,12 +51,11 @@ const Footer = () => {
   };
 
   return (
-    // {style={{ backgroundColor: "#353b66" }}}
     <div
       className="container-fluid p-4 bottom-fixed"
       style={{
         backgroundImage:
-          'url("https://www.techasoft.com/debug/img/industries-back.jpg")',
+          `url(${footerbg})`,
         backgroundSize: "cover",
       }}
     >
@@ -68,9 +68,13 @@ const Footer = () => {
               deliver any technical solution to your organization..
             </p>
             <div>
-              <p>&copy;  Labyrinth Global Solutions 2023. All rights reserved.</p>
+              <p>
+                &copy; Labyrinth Global Solutions 2023. All rights reserved.
+              </p>
             </div>
           </div>
+          <SocialMediaButtons />
+          <Mobilesocialmediabtns />
         </div>
         <div className="col-12 col-lg-3 col-md-6 ">
           <div className="footerContact">

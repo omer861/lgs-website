@@ -4,8 +4,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../navbar";
 import Footer from "../Footer";
 import { BeatLoader } from "react-spinners";
-import medixsideimage from "../images/medixsideimage.png";
-import mendixbanner from "../images/mendixremovebg.png";
+import medixsideimage from "../images/medixsideimage.webp";
+import mendixbanner from "../images/mendixremovebg.webp";
+import mendix3 from "../images/mendix3.webp";
+import mendixappicon from "../images/mendixiappicon.webp";
+import mendixcloudicon from "../images/mendixcloudicon.webp";
+import mendixautoicon from '../images/mendixautoicon.webp';
+import mendixdataintegicon from '../images/mendixdataintegicon.webp';
+import mendixmultexpicon from '../images/mendixmultexpicon.webp';
+import mendixaiicon from '../images/mendixaiicon.webp'
 import Typewriter from "typewriter-effect";
 
 class ResellerMendix extends Component {
@@ -55,20 +62,7 @@ class ResellerMendix extends Component {
                 src={mendixbanner}
               />
             </div>
-            {/* <div className="row">
-              <div className="col-12 mb-5">
-                <h1 className="reseller-mendix-heading">Mendix</h1>
-                <p className="reseller-mendix-paragraph">
-                  LGS is your go-to destination for cutting-edge software and
-                  app development using the powerful Mendix low-code platform.
-                  We deliver innovative solutions that drive success, tailored
-                  to your specific needs. As authorized Mendix resellers, we
-                  ensure access to the latest tools for your digital
-                  initiatives. Let's embark on this exciting journey together
-                  and empower innovation with LGS.
-                </p>
-              </div>
-            </div> */}
+
             <div className="reseller-mendix-side-description">
               <div className="mendix-card-description">
                 <h1 className="mendix-card-description-heading">
@@ -107,7 +101,7 @@ class ResellerMendix extends Component {
                 <img
                   alt="mendixpic"
                   className="reseller-mendix-pic-2"
-                  src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1690458271/Blog-Header_-Fused-IDEs_-_Copy_vredfk.png"
+                  src={mendix3}
                 />
               </div>
               <div className="reseller-mendix-side-description-2">
@@ -131,10 +125,7 @@ class ResellerMendix extends Component {
               <div className="card-container">
                 <div className="card">
                   <div className="img-box">
-                    <img
-                      src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689916240/app-icon_tvkvp8.png"
-                      alt="appdevelopment"
-                    />
+                    <img src={mendixappicon} alt="appdevelopment" />
                   </div>
                   <div className="content">
                     <h1 className="mendix-card-heading">App Development</h1>
@@ -149,10 +140,7 @@ class ResellerMendix extends Component {
               <div className="card-container">
                 <div className="card">
                   <div className="img-box">
-                    <img
-                      src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689916271/cloud-icon_tfv9nt.png"
-                      alt="seo-friendly"
-                    />
+                    <img src={mendixcloudicon} alt="seo-friendly" />
                   </div>
                   <div className="content">
                     <h1 className="mendix-card-heading">Cloud</h1>
@@ -169,7 +157,7 @@ class ResellerMendix extends Component {
                   <div className="img-box">
                     <img
                       className="chat-image"
-                      src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689916263/intel-auto-icon_q81gmm.png"
+                      src={mendixautoicon}
                       alt="chat-social"
                     />
                   </div>
@@ -188,7 +176,7 @@ class ResellerMendix extends Component {
                 <div className="card">
                   <div className="img-box">
                     <img
-                      src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689916306/data-integ-icon_zsbsqc.png"
+                      src={mendixdataintegicon}
                       alt="blog"
                     />
                   </div>
@@ -206,7 +194,7 @@ class ResellerMendix extends Component {
                 <div className="card">
                   <div className="img-box">
                     <img
-                      src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689916286/multi-exp_xefdic.png"
+                      src={mendixmultexpicon}
                       alt="theme"
                     />
                   </div>
@@ -225,7 +213,7 @@ class ResellerMendix extends Component {
                   <div className="img-box">
                     <img
                       className="chat-image"
-                      src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689916297/ai-icon_aae4lv.png"
+                      src={mendixaiicon}
                       alt="chat-social"
                     />
                   </div>

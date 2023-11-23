@@ -1,0 +1,31 @@
+.mobile-social-media-btns-main-container {
+  width: 100%;
+}
+
+.mobile-social-media-btns-mini-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.mobile-social-icon-container {
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 5%;
+}
+
+.mobile-social-icon {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1025px) {
+  .mobile-social-media-btns-main-container {
+    display: none;
+  }
+}

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-.spinner{
-  height: 100vh; 
+.spinner {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,7 +115,8 @@
 }
 
 .home-page-paragraph {
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 28px;
   color: #000000;
   font-weight: 500;
   padding: 3px;
@@ -188,7 +189,7 @@
   justify-content: center;
 }
 .home-page-slider-main-container {
-  background-image: url("../images/bgimage.jpg");
+  background-image: url("../images/bgimage.webp");
   background-size: cover;
 }
 
@@ -206,18 +207,54 @@
   padding: 4px;
 }
 
+.why-us-padding {
+  padding: 70px;
+}
+
+.tech-client-divider {
+  width: 90%;
+  text-align: center;
+  border: 3px solid black;
+}
+.tech-client-divider-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-page-heading-why-us {
+  font-size: 24px;
+  font-weight: bold !important ;
+  font-family: "Poppins", sans-serif;
+  color: #000000 !important;
+  margin-top: 20px;
+}
+
 /* media query apply for upto tablet devices */
 
 @media only screen and (max-width: 767px) {
   .home-page-slider-main-container {
-    background-image: url("../images/tabletviewbgimage.png");
+    background-image: url("../images/tabletviewbgimage.webp");
     background-size: cover;
+    height: 250px;
   }
   .mincards-container {
     display: flex;
     justify-content: center;
     padding-top: 20px;
     margin-top: 10px;
+  }
+  .why-us-padding {
+    padding: 20px;
+  }
+  .tech-client-divider {
+    width: 90%;
+    border: 1px solid black;
+  }
+  .tech-client-divider-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 
   .home-page-heading {
@@ -232,11 +269,7 @@
     font-weight: 500;
     padding: 3px;
     font-family: "Poppins", sans-serif;
-  }
-
-  .home-page-slider-main-container {
-    background-color: #000000;
-    height: 350px;
+    line-height: 20px;
   }
   .home-page-content-container {
     margin-bottom: 10px;
@@ -281,6 +314,13 @@
   }
   .home-page-arrow {
     font-size: 20px;
+  }
+  .home-page-heading-why-us {
+    font-size: 20px;
+    font-weight: bold !important ;
+    font-family: "Poppins", sans-serif;
+    color: #000000 !important;
+    margin-top: 20px;
   }
 }
 

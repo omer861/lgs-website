@@ -17,37 +17,6 @@ class HomepageHeader extends Component {
     this.setState((prevState) => ({ showmblItems: !prevState.showmblItems }));
   };
 
-  // showMblNavminiItems = () => {
-  //   const { showmblItems } = this.state;
-  //   console.log(showmblItems);
-  //   return (
-  //     <ul className="mbl-Nav-Service-container-items">
-  //         <li className="Headeroption-item">
-  //         <Link to="/polarianalm" className="link">Polarion ALM
-  //         </Link>
-  //         </li>
-
-  //       <Link to="/saascloudsolutions" className="link">
-  //         <li className="Headeroption-item">SAAS & cloud Solutions</li>
-  //       </Link>
-  //       <Link to="/ptcintegrity" className="link">
-  //         <li className="Headeroption-item">PTC Integrity</li>
-  //       </Link>
-  //       <Link to="/mobileandappdevelopment" className="link">
-  //         <li className="Headeroption-item">Mobile & APP Development</li>
-  //       </Link>
-  //       <Link to="/resellermendix" className="link">
-  //         <li className="Headeroption-item">Mendix</li>
-  //       </Link>
-  //       <Link to="/salesforcepage" className="link">
-  //         <li className="Headeroption-item">Sales Force</li>
-  //       </Link>
-  //     </ul>
-  //   );
-  // };
-
-  // Mobile View Navbar Code
-
   renderNavItems = () => {
     return (
       <div className="mbl-nav-items-container">
@@ -460,11 +429,7 @@ class HomepageHeader extends Component {
 
                 <li className=" about-us-nav about-padding">
                   <button className="hirepod-nav-home-btn">
-                    <NavLink
-                      to="/pods"
-                      // activeclassname="active"
-                      className="hire-pod-inactive"
-                    >
+                    <NavLink to="/pods" className="hire-pod-inactive">
                       HIRE A POD
                     </NavLink>
                   </button>

@@ -105,25 +105,7 @@
   opacity: 0.8;
 }
 
-/* @media (max-width: 480px) {
-  .container .card {
-    width: 230px;
-    border-radius: 15px;
-  }
 
-  .container .card .img-box {
-    width: 185px;
-    border-radius: 10px;
-  }
-
-  .container .card .content p {
-    font-size: 0.8rem;
-  }
-
-  .container .card .content a {
-    font-size: 0.9rem;
-  }
-} */
 
 .chat-image {
   background-size: cover;

@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import "./index.css";
 import { RxCross2 } from "react-icons/rx";
 import { useNavigate } from "react-router-dom";
+import popupsideimg from "../images/popupsideimg.webp";
 
 const ContactPopup = () => {
   const [showPopup, setShowPopup] = useState(true);
@@ -20,7 +21,7 @@ const ContactPopup = () => {
     navigate("/");
   };
 
-  const apiUrl = process.env.REACT_APP_API_BASE_URL
+  const apiUrl = process.env.REACT_APP_API_BASE_URL;
 
   const handleSubmit = async (event) => {
     const service = course;
@@ -56,9 +57,7 @@ const ContactPopup = () => {
       console.error(error);
     }
   };
-  const onChange = () => {
-    
-  }
+  const onChange = () => {};
 
   return (
     <>
@@ -73,7 +72,7 @@ const ContactPopup = () => {
                 </p>
                 <img
                   className="login-logo"
-                  src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1690546385/10-work_2x_fazttu.png"
+                  src={popupsideimg}
                   alt="website login"
                 />
               </div>
@@ -87,7 +86,7 @@ const ContactPopup = () => {
                   type="text"
                   id="name"
                   placeholder="Enter your name"
-                  value={name || ''}
+                  value={name || ""}
                   onChange={(e) => setName(e.target.value)}
                   className="input-field"
                   required
@@ -96,7 +95,7 @@ const ContactPopup = () => {
               <div className="input-container">
                 <select
                   id="course"
-                  value={course || ''}
+                  value={course || ""}
                   onChange={(e) => setCourse(e.target.value)}
                   className="input-field"
                   required
@@ -121,7 +120,7 @@ const ContactPopup = () => {
                   type="number"
                   id="phoneNumber"
                   placeholder="Enter your phone number"
-                  value={phoneNumber || ''}
+                  value={phoneNumber || ""}
                   onChange={(e) => setPhoneNumber(e.target.value)}
                   className="input-field"
                   required
@@ -133,7 +132,7 @@ const ContactPopup = () => {
                   type="email"
                   id="email"
                   placeholder="Enter your email address"
-                  value={email || ''}
+                  value={email || ""}
                   onChange={(e) => setEmail(e.target.value)}
                   className="input-field"
                   required
@@ -144,12 +143,15 @@ const ContactPopup = () => {
                   type="text"
                   id="comment"
                   placeholder="Enter your Comment"
-                  value={comment || ''}
+                  value={comment || ""}
                   onChange={(e) => setComment(e.target.value)}
                   className="input-field"
                 />
               </div>
-              <ReCAPTCHA sitekey="6LfHycEnAAAAAF_Yt24Y7H6nxaAXeEZ9OCO4Cxz0" onChange={onChange} />
+              <ReCAPTCHA
+                sitekey="6LfHycEnAAAAAF_Yt24Y7H6nxaAXeEZ9OCO4Cxz0"
+                onChange={onChange}
+              />
               <div className="popup-button-container">
                 <button className="login-button" type="submit">
                   SUBMIT

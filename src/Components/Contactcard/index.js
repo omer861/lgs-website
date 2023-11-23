@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Contactcard = () => {
   // Initialize state for form fields
   const [formData, setFormData] = useState({
-    FirstName: '',
-    LastName: '',
-    Email: '',
-    Country:'',
+    FirstName: "",
+    LastName: "",
+    Email: "",
+    Country: "",
   });
 
   // Event handler for input changes
@@ -21,7 +21,7 @@ const Contactcard = () => {
   // Event handler for form submission
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log('Form submitted with data:', formData);
+    console.log("Form submitted with data:", formData);
     // You can perform further actions, like sending the data to an API
   };
 
@@ -63,6 +63,6 @@ const Contactcard = () => {
       </form>
     </div>
   );
-}
+};
 
 export default Contactcard;

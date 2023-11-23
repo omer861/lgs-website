@@ -1,12 +1,12 @@
 import { Component } from "react";
 
 import "./index.css";
+import plusICon from "../images/faqs-plus-icon-img.webp";
+import minusICon from "../images/faqs-minus-icon-img.webp";
 
-const PLUS_IMAGE =
-  "https://assets.ccbp.in/frontend/react-js/faqs-plus-icon-img.png";
+const PLUS_IMAGE = plusICon;
 
-const MINUS_IMAGE =
-  "https://assets.ccbp.in/frontend/react-js/faqs-minus-icon-img.png";
+const MINUS_IMAGE = minusICon;
 
 class WhyUs extends Component {
   state = {

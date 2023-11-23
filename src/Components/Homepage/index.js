@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import ReactSlick from "../Slider";
-import ImageSlider from "../ImageSlider";
 import WhyUs from "../Whyus";
-import about from "../images/whyusimage.png";
+import about from "../images/whyusimage.webp";
 import StartPopup from "../StartPopup";
 import HomepageHeader from "../HomePageNavbar";
-import Chat from "../chat";
 import Services from "../Services";
 import { BsArrowRightShort } from "react-icons/bs";
 import { TiTick } from "react-icons/ti";
@@ -15,7 +13,7 @@ import "./index.css";
 import IndustriesPage from "../IndustriesPage";
 import TechnologiesPage from "../Technologies";
 import Card from "../Card";
-import lgshome from "../images/lgsaboutushomei.png";
+import lgshome from "../images/lgshome.webp";
 import Minicards from "../MiniCards";
 import { BeatLoader } from "react-spinners";
 import Footer from "../Footer";
@@ -96,27 +94,24 @@ class HomePage extends Component {
             <div>
               <div className="container-fluid">
                 <div className="home-page-slider-main-container row">
-                  <div className="col-12 col-md-6">
+                  <div className="col-12 col-md-6 w-100">
                     <ReactSlick />
-                  </div>
-                  <div className="col-12 col-md-6">
-                    <ImageSlider />
                   </div>
                 </div>
 
-                <div className="row p-5">
+                <div className="row p-3">
                   <div className="col-12 col-md-7 home-page-content-container">
                     <h1 className="home-page-heading">About LGS</h1>
                     <h5 className="mb-4 home-page-paragraph">
                       Welcome to the world of innovation and digital excellence!
                       At Labyrinth Global Solutions, we are more than just an IT
-                      company; we are your partners in transforming ideas into
+                      company. we are your partners in transforming ideas into
                       reality. As pioneers in web and app development, we
                       harness the power of technology to create seamless digital
                       experiences that drive growth and inspire change.
                     </h5>
                     <h4 className="home-page-heading">
-                      Industries We are Serving{" "}
+                      Industries We are Serve{" "}
                     </h4>
                     <div className="home-page-list-container">
                       <ul>
@@ -173,8 +168,10 @@ class HomePage extends Component {
                 <div className="row">
                   <Services />
                 </div>
-                <div className="row p-5">
-                  <h1 className="home-page-heading text-center">Why Us</h1>
+                <div className="row why-us-padding">
+                  <h1 className="home-page-heading-why-us text-center">
+                    Why Us
+                  </h1>
                   <div className="col-12 col-lg-5 mt-3 home-reval about-us-image-container">
                     <img
                       className="home-about-us-image"
@@ -182,23 +179,31 @@ class HomePage extends Component {
                       alt="why-us"
                     />
                   </div>
-                  <div className="col-12 col-lg-7 mt-4 home-reval">
+                  <div className="col-12 col-lg-7 home-reval">
                     <ul className="home-page-why-us-container">
                       {Details.map((eachItem) => (
                         <WhyUs key={eachItem.id} details={eachItem} />
                       ))}
                     </ul>
                   </div>
+                </div>
+                <div className="row">
                   <IndustriesPage />
+                </div>
+                <div className="row">
                   <div className="Technology-mbl-container" id="technologies">
                     <TechnologiesPage />
                   </div>
+                </div>
+                <div className="tech-client-divider-container">
+                  <hr className="tech-client-divider" />
+                </div>
+                <div className="row">
                   <div className="home-clients" id="clients">
                     <Card />
                   </div>
                 </div>
                 <StartPopup />
-                {/* <Chat /> */}
               </div>
             </div>
           )}

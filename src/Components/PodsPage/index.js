@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./index.css";
-import pods1 from "../images/pods1.png";
+import pods1 from "../images/pods1.webp";
 import { Link } from "react-router-dom";
 import { BsFillPersonFill } from "react-icons/bs";
 import { AiOutlineThunderbolt } from "react-icons/ai";
-import pods3 from "../images/pods3.png";
+import pods3 from "../images/pods3.webp";
 import Header from "../navbar";
 import Footer from "../Footer";
 

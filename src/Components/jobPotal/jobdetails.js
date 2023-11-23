@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import "./JobDetails.css"; // Import your custom CSS file
+import "./JobDetails.css";
 import ContactForm from "../Careers/CarrerContactform";
 import Footer from "../Footer";
 import Header from "../navbar";
@@ -43,27 +43,27 @@ const JobDetails = () => {
     <div>
       <Header />
       <div className="job-details-container">
-      <h1 className="text-center">Job Details</h1>
-      <div className="job-card-container">
-        <h2 className="job-card-heading">
-          Title: <span className="job-main-title">{jobDetails.title}</span>
-        </h2>
+        <h1 className="text-center">Job Details</h1>
+        <div className="job-card-container">
+          <h2 className="job-card-heading">
+            Title: <span className="job-main-title">{jobDetails.title}</span>
+          </h2>
 
-        <p className="job-description">{jobDetails.description}</p>
+          <p className="job-description">{jobDetails.description}</p>
 
-        <div className="job-location-button-container">
-          <div>
-            <p className="job-details">
-              <span className="job-card-heading">Experience:</span>{" "}
-              {jobDetails.experience} years
-            </p>
-            <p className="job-details">
-              <span className="job-card-heading">Location:</span>{" "}
-              {jobDetails.location}
-            </p>
+          <div className="job-location-button-container">
+            <div>
+              <p className="job-details">
+                <span className="job-card-heading">Experience:</span>{" "}
+                {jobDetails.experience} years
+              </p>
+              <p className="job-details">
+                <span className="job-card-heading">Location:</span>{" "}
+                {jobDetails.location}
+              </p>
+            </div>
           </div>
         </div>
-      </div>
       </div>
       <ContactForm />
       <Footer />

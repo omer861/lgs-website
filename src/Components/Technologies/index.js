@@ -1,5 +1,5 @@
 import React from "react";
-
+import postgreSqllogo from "../images/postgreSqllogo.webp";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 
@@ -70,7 +70,7 @@ const TechnologiesList = [
   },
   {
     id: 10,
-    src: "https://res.cloudinary.com/dkajxnnlq/image/upload/v1690548097/logos-09_kpehpk.png",
+    src: postgreSqllogo ,
     class: "technologyIndustriesImage",
     height: 100,
     width: 120,
