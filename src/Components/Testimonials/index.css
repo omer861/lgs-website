@@ -1,0 +1,144 @@
+.home-carousel-main-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6%;
+  background-color: #dee8f9;
+}
+.home-carousel-first-images-container {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.home-carousel-second-images-container {
+  width: 24%;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+
+.home-carousel-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 45%;
+}
+
+.home-carousel-sub-container {
+  width: 100%;
+}
+
+.home-carousel-icon {
+  height: 50px;
+  color: black;
+  width: 50px;
+}
+
+.home-carousel-icon-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-carousel-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.home-carousel-person-name {
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+}
+
+.home-carousel-person-description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #757474;
+  padding: 5px;
+}
+
+.home-carousel-person-role {
+  font-size: 18px;
+  text-align: center;
+  color: #949392;
+}
+
+.home-carousel-image {
+
+  width: 50%;
+  margin: 10px;
+}
+
+.home-carousel-side-image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.home-carousel-first-center-image {
+  height: 70px;
+  width: 70px;
+  left: 120px;
+  border-radius: 50%;
+  margin: 10px;
+  position: relative;
+}
+.home-carousel-second-center-image {
+  height: 70px;
+  position: relative;
+  width: 70px;
+  border-radius: 50%;
+  margin: 10px;
+
+  right: 120px;
+}
+
+/*-------------------------------------- Media Queries ----------------------------------- */
+
+@media screen and (max-width: 1024px) {
+  .home-carousel-first-images-container {
+    display: none;
+  }
+
+  .home-carousel-second-images-container {
+    display: none;
+  }
+  .home-carousel-main-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .home-carousel-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    background-color: #dee8f9;
+  }
+
+  .home-carousel-sub-container {
+    width: 100%;
+  }
+
+  .home-carousel-person-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: #757474;
+    padding: 10px;
+  }
+}
