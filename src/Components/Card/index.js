@@ -2,8 +2,7 @@ import React from "react";
 import "./index.css";
 import bitstoreclientlogo from "../images/bitstoreclientlogo.webp";
 import airbnbclientlogo from "../images/airbnbclientlogo.webp";
-import AlKhalijiBankclientlogo from "../images/Al-Khaliji-Bankclientlogo.webp";
-import AlcoveFurnitureclientlogo from "../images/AlcoveFurnitureclientlogo.webp";
+  import AlcoveFurnitureclientlogo from "../images/AlcoveFurnitureclientlogo.webp";
 import CIBTvissasclientlogo from "../images/CIBTvissasclientlogo.webp";
 import Cognizantclientlogo from "../images/Cognizantclientlogo.webp";
 import hclclientlogo from "../images/HCLclientlogo.webp";
@@ -19,6 +18,7 @@ import Tauliaclientlogo from "../images/Tauliaclientlogo.webp";
 import yesbankclientlogo from "../images/yesbankclientlogo.webp";
 import drreddysclientlogo from "../images/drreddysclientlogo.webp";
 import "bootstrap/dist/css/bootstrap.min.css";
+import khaleejilbanklogo from '../images/khaleejilbanklogo.png'
 
 const OurClientsList = [
   {
@@ -119,7 +119,7 @@ const OurClientsList = [
   },
   {
     id: 17,
-    src: AlKhalijiBankclientlogo,
+    src: khaleejilbanklogo,
     height: 130,
     width: 130,
   },

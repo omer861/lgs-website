@@ -13,6 +13,7 @@ import { GiJumpAcross } from "react-icons/gi";
 import { BiSolidQuoteAltLeft, BiSolidQuoteAltRight } from "react-icons/bi";
 import React, { Component } from "react";
 import aboutusImage from "../images/aboutusbannerimage.webp";
+import Testimonials from "../Testimonials";
 
 class about extends Component {
   state = { loading: true };
@@ -220,6 +221,7 @@ class about extends Component {
             </div>
           </div>
         )}
+        <Testimonials />
 
         <Footer />
       </>
