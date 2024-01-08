@@ -4,7 +4,6 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-
 import { FaFacebookF } from "react-icons/fa";
 
 const SocialMediaButtons = () => {
