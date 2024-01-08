@@ -10,7 +10,7 @@
 /coverage
 
 # production
-/build
+# /build
 docker-compose-prod.yml
 # misc
 .DS_Store
