@@ -10,7 +10,7 @@ import footerbg from '../images/footerbg.webp'
 import "./index.css";
 import { Link } from "react-router-dom";
 import SocialMediaButtons from "../FootersocialIcons";
-import Mobilesocialmediabtns from "../MobileSocilaMediabtns";
+import Mobilesocialmediabtns from "../MobileSocialMediabtns";
 
 const Footer = () => {
   const [visitCount, setVisitCount] = useState(0);
