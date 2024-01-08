@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d47c4ac6.css",
-    "main.js": "/static/js/main.9308c634.js",
+    "main.js": "/static/js/main.efa9f72a.js",
     "static/js/787.d26616dc.chunk.js": "/static/js/787.d26616dc.chunk.js",
     "static/media/Core Values.mp4": "/static/media/Core Values.358b99d60ed932263ae1.mp4",
     "static/media/whyChooseLGS.mp4": "/static/media/whyChooseLGS.5575ec7b738423f9bdb1.mp4",
@@ -119,11 +119,11 @@
     "static/media/faqs-plus-icon-img.webp": "/static/media/faqs-plus-icon-img.241cd921f151ecb543da.webp",
     "static/media/faqs-minus-icon-img.webp": "/static/media/faqs-minus-icon-img.85aa222e74ec8f52ba0c.webp",
     "main.d47c4ac6.css.map": "/static/css/main.d47c4ac6.css.map",
-    "main.9308c634.js.map": "/static/js/main.9308c634.js.map",
+    "main.efa9f72a.js.map": "/static/js/main.efa9f72a.js.map",
     "787.d26616dc.chunk.js.map": "/static/js/787.d26616dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d47c4ac6.css",
-    "static/js/main.9308c634.js"
+    "static/js/main.efa9f72a.js"
   ]
 }
