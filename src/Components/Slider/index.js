@@ -8,6 +8,8 @@ import webdesign from "../images/webdesign.webp";
 import mobile from "../images/mobile.webp";
 import digital from "../images/marketing.webp";
 
+import microsoft from "../images/Frame 123.png";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./index.css"; // Create a CSS file to style the slider (Slider.css)
@@ -63,6 +65,13 @@ class ReactSlick extends Component {
         buttonText: "Contact Us",
         img: digital,
         // Replace with the actual image path
+      },
+      {
+        title: "Microsoft Business Central",
+        content:
+          "Elevate your business with Microsoft Dynamics 365, where seamless integration and intelligent solutions converge for unparalleled growth.",
+        buttonText: "Contact Us",
+        img: microsoft,
       },
     ];
 

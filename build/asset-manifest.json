@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d47c4ac6.css",
-    "main.js": "/static/js/main.efa9f72a.js",
+    "main.js": "/static/js/main.75a95c13.js",
     "static/js/787.d26616dc.chunk.js": "/static/js/787.d26616dc.chunk.js",
     "static/media/Core Values.mp4": "/static/media/Core Values.358b99d60ed932263ae1.mp4",
     "static/media/whyChooseLGS.mp4": "/static/media/whyChooseLGS.5575ec7b738423f9bdb1.mp4",
@@ -11,6 +11,7 @@
     "static/media/services.webp": "/static/media/services.db3bb0d26ebac0733b94.webp",
     "static/media/postgreSqllogo.webp": "/static/media/postgreSqllogo.16a51facc14009e9db92.webp",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/Frame 123.png": "/static/media/Frame 123.63af94c9c1e9410bca71.png",
     "static/media/polarioncsm.webp": "/static/media/polarioncsm.afb94044b6a6d599008f.webp",
     "static/media/Gem.webp": "/static/media/Gem.f13f3339a7120cd45325.webp",
     "static/media/polarionmedicalicon.png": "/static/media/polarionmedicalicon.2897d165a8a2c0af7bfb.png",
@@ -119,11 +120,11 @@
     "static/media/faqs-plus-icon-img.webp": "/static/media/faqs-plus-icon-img.241cd921f151ecb543da.webp",
     "static/media/faqs-minus-icon-img.webp": "/static/media/faqs-minus-icon-img.85aa222e74ec8f52ba0c.webp",
     "main.d47c4ac6.css.map": "/static/css/main.d47c4ac6.css.map",
-    "main.efa9f72a.js.map": "/static/js/main.efa9f72a.js.map",
+    "main.75a95c13.js.map": "/static/js/main.75a95c13.js.map",
     "787.d26616dc.chunk.js.map": "/static/js/787.d26616dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d47c4ac6.css",
-    "static/js/main.efa9f72a.js"
+    "static/js/main.75a95c13.js"
   ]
 }
